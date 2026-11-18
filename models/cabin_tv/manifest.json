@@ -1,0 +1,176 @@
+{
+  "version": 1,
+  "source": "new-original-Lux3D-models",
+  "units": "body-local meters; whale parent world scale 1.6",
+  "status": "placed-and-checked",
+  "whale": {
+    "url": "/models/cabin_tv/whale.glb",
+    "sourceTask": 8310559,
+    "sourceFile": "assets/lux3d/cabin_tv_20261118/whale_model_8310559.glb",
+    "sourceSha256": "9b20dda86962ac7c40cd7de570c4ba5647e7a964173d1b16d7d9f97fd9b8f9f6",
+    "sha256": "e3bcb027cf990916a5b78ebd7ff42691e1d683ac51d7e9f71e52631b82da616d",
+    "screenBounds": {
+      "min": [
+        -0.3741758167743683,
+        0.11399044096469879,
+        0.23241375386714935
+      ],
+      "max": [
+        0.22085288166999817,
+        0.6671206951141357,
+        0.2867881655693054
+      ]
+    },
+    "sourceBounds": {
+      "min": [
+        -0.5,
+        0,
+        -0.34110934445882757
+      ],
+      "max": [
+        0.5,
+        0.8397485372688648,
+        0.34110934445882757
+      ]
+    },
+    "placement": {
+      "position": [
+        10.78,
+        1.1778492092463568,
+        1.05
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "scale": 0.5625
+    },
+    "bounds": {
+      "min": [
+        10.588125998824834,
+        1.1778492092463568,
+        0.76875
+      ],
+      "max": [
+        10.971874001175165,
+        1.650207775023897,
+        1.33125
+      ]
+    },
+    "qa": {
+      "approach": [
+        11.871874001175165,
+        1.5940284921351269,
+        0.9
+      ],
+      "camera": [
+        13.471874001175165,
+        2.1940284921351267,
+        0.35
+      ],
+      "target": [
+        10.78,
+        1.414028492135127,
+        1.05
+      ],
+      "distanceToScreenWorld": 1.4880000000000004
+    },
+    "worldWidth": 0.9,
+    "fit": {
+      "minimumShell": 0.08322737241213796,
+      "wallBoneIntersections": [],
+      "furnitureIntersections": [],
+      "actorProbeFailures": 0,
+      "testedAccessorVerticesBeforeCompaction": 13438,
+      "vertexCountNote": "Historical accessor vertex count used for placement check before unused screen-accessor vertices were removed; not current unique vertices.",
+      "compactionNote": "Screen accessor compaction retained source triangle positions/UVs/sourceFaces mapping, maximum measured position error <3e-8; previous spatial clearance remains applicable."
+    },
+    "bytes": 2467556
+  },
+  "ribbonfish": {
+    "url": "/models/cabin_tv/ribbonfish.glb",
+    "sourceTask": 8310555,
+    "sourceFile": "assets/lux3d/cabin_tv_20261118/ribbonfish_model_8310555.glb",
+    "sourceSha256": "d38d7b8f202ad1ee4d4727277d799f8164a50bcf92f80ce2ce655313721e3020",
+    "sha256": "202496bce80d94caed7e7d427bbea97be11479e1b319ba2f3cfb497ffc9af7d9",
+    "screenBounds": {
+      "min": [
+        -0.3986932039260864,
+        0.1429235339164734,
+        0.25527289509773254
+      ],
+      "max": [
+        0.19255666434764862,
+        0.6604042053222656,
+        0.32472631335258484
+      ]
+    },
+    "sourceBounds": {
+      "min": [
+        -0.5,
+        0,
+        -0.327918604209782
+      ],
+      "max": [
+        0.5,
+        0.7720977949104534,
+        0.327918604209782
+      ]
+    },
+    "placement": {
+      "position": [
+        36.45,
+        -5.8491697401350775,
+        1.15
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "scale": 0.9
+    },
+    "bounds": {
+      "min": [
+        36.15487324297428,
+        -5.8491697401350775,
+        0.7
+      ],
+      "max": [
+        36.74512675702572,
+        -5.154281750375632,
+        1.5999999999999999
+      ]
+    },
+    "qa": {
+      "approach": [
+        38.095126757025724,
+        -5.321725745255355,
+        0.9999999999999999
+      ],
+      "camera": [
+        40.49512675702572,
+        -4.521725745255355,
+        0.44999999999999984
+      ],
+      "target": [
+        36.45,
+        -5.501725745255355,
+        1.15
+      ],
+      "distanceToScreenWorld": 1.3701824696003098
+    },
+    "worldWidth": 0.9,
+    "fit": {
+      "minimumShell": 0.10398029673322018,
+      "wallBoneIntersections": [],
+      "furnitureIntersections": [],
+      "actorProbeFailures": 0,
+      "testedAccessorVerticesBeforeCompaction": 14552,
+      "vertexCountNote": "Historical accessor vertex count used for placement check before unused screen-accessor vertices were removed; not current unique vertices.",
+      "compactionNote": "Screen accessor compaction retained source triangle positions/UVs/sourceFaces mapping, maximum measured position error <3e-8; previous spatial clearance remains applicable."
+    },
+    "bytes": 1961300
+  }
+}

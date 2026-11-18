@@ -1,0 +1,99 @@
+{
+  "parts": [
+    {
+      "index": 0,
+      "name": "body",
+      "vertices": 14279
+    },
+    {
+      "index": 1,
+      "name": "tail_fin",
+      "vertices": 2874
+    },
+    {
+      "index": 2,
+      "name": "left_pectoral_fin",
+      "vertices": 3204
+    },
+    {
+      "index": 3,
+      "name": "right_pectoral_fin",
+      "vertices": 3557
+    },
+    {
+      "index": 4,
+      "name": "mouth",
+      "vertices": 1906
+    }
+  ],
+  "joints": [
+    {
+      "name": "tail_fin_joint",
+      "part": 1,
+      "pivot": [
+        0.5472,
+        0.0331,
+        -0.0016
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    },
+    {
+      "name": "left_pectoral_fin_joint",
+      "part": 2,
+      "pivot": [
+        -0.4773,
+        -0.0405,
+        -0.0709
+      ],
+      "axis": [
+        -0.501494,
+        0.863889,
+        -0.046899
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    },
+    {
+      "name": "right_pectoral_fin_joint",
+      "part": 3,
+      "pivot": [
+        -0.4901,
+        -0.0288,
+        0.0693
+      ],
+      "axis": [
+        -0.65647,
+        0.754266,
+        -0.011399
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    },
+    {
+      "name": "mouth_joint",
+      "part": 4,
+      "pivot": [
+        -0.5701,
+        -0.0645,
+        -0.0059
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "lower": -1.445351,
+      "upper": 0.910843
+    }
+  ],
+  "source": {
+    "urdf": "assets/lux3d/fish_artic/unz/urdf/robot.urdf",
+    "scale": 5.3333
+  }
+}

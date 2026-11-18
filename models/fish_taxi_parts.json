@@ -1,0 +1,141 @@
+{
+  "parts": [
+    {
+      "index": 0,
+      "name": "body",
+      "vertices": 4644
+    },
+    {
+      "index": 1,
+      "name": "caudal_fin",
+      "vertices": 1613
+    },
+    {
+      "index": 2,
+      "name": "dorsal_fin",
+      "vertices": 1823
+    },
+    {
+      "index": 3,
+      "name": "anal_fin",
+      "vertices": 944
+    },
+    {
+      "index": 4,
+      "name": "left_pectoral_fin",
+      "vertices": 674
+    },
+    {
+      "index": 5,
+      "name": "right_pectoral_fin",
+      "vertices": 708
+    },
+    {
+      "index": 6,
+      "name": "pelvic_fin",
+      "vertices": 1039
+    }
+  ],
+  "joints": [
+    {
+      "name": "caudal_fin_joint",
+      "part": 1,
+      "pivot": [
+        0.5637,
+        0.0219,
+        0.0011
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    },
+    {
+      "name": "dorsal_fin_joint",
+      "part": 2,
+      "pivot": [
+        -0.0096,
+        0.2288,
+        0.0011
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    },
+    {
+      "name": "anal_fin_joint",
+      "part": 3,
+      "pivot": [
+        0.208,
+        -0.1845,
+        -0.0005
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    },
+    {
+      "name": "left_pectoral_fin_joint",
+      "part": 4,
+      "pivot": [
+        -0.432,
+        -0.1616,
+        0.0816
+      ],
+      "axis": [
+        -0.308313,
+        0.886437,
+        0.345214
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    },
+    {
+      "name": "right_pectoral_fin_joint",
+      "part": 5,
+      "pivot": [
+        -0.4336,
+        -0.1621,
+        -0.08
+      ],
+      "axis": [
+        -0.211494,
+        0.909773,
+        -0.357189
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    },
+    {
+      "name": "pelvic_fin_joint",
+      "part": 6,
+      "pivot": [
+        -0.1605,
+        -0.28,
+        0
+      ],
+      "axis": [
+        -0.995145,
+        0.096404,
+        -0.019801
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    }
+  ],
+  "source": {
+    "urdf": "assets/lux3d/fish_taxi_artic/x/urdf/robot.urdf",
+    "scale": 5.3333
+  }
+}

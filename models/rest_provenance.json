@@ -1,0 +1,351 @@
+{
+  "createdAt": "2026-11-17T05:30:38.987Z",
+  "ending": "rest / 喘息",
+  "scope": "Two newly generated Lux3D art meshes for this game; no generated visible geometry substitutes",
+  "budgetEstimateCredits": [
+    22,
+    42
+  ],
+  "actualBilling": "API does not return a bill",
+  "reference": {
+    "file": "docs/art_ref/rest/user-reference.jpg",
+    "bytes": 151491,
+    "sha256": "41b1e0f899d9784527845b93ec84f47e403e27ee2163df9452588110280be621"
+  },
+  "tasks": [
+    {
+      "taskId": 8207833,
+      "kind": "image",
+      "asset": "rest_bubble",
+      "parameters": {
+        "img": "docs/art_ref/rest/user-reference.jpg",
+        "prompt": "Use the supplied painting only for its restrained poetic underwater mood and warm cream with faint pale-cyan palette. Create ONE isolated organic air bubble film as a clear three-dimensional asset guide: a single closed, softly inflated irregular ovoid, slightly asymmetric with gentle shallow undulations from water pressure, round smooth continuous surface, no appendages, no stem, no pedestal. A quiet matte pearlescent milk-glass membrane, mostly pale warm ivory with one extremely subtle dusty blue area, evenly legible soft volume, faint internal translucency but enough opaque surface information for 3D reconstruction. Art-directed natural understated elegance, lonely dreamlike stillness, broad diffuse light, no glitter, no metallic shine, no rainbow coating, no hard highlights, no texture lines, no surrounding halo. Show a three-quarter view, complete silhouette with generous empty margin on a flat medium charcoal gray background. Exactly one bubble, no fish, no scenery, no other bubbles, no text, no cast shadow, no ground."
+      },
+      "seconds": 46,
+      "files": [
+        {
+          "file": "assets/lux3d/rest_bubble/image_8207833.jpg",
+          "bytes": 241086,
+          "sha256": "b37e229627770392a2ea73e1280d29dc527017155b32565c8f14f4ffcb989a5e"
+        }
+      ]
+    },
+    {
+      "taskId": 8207922,
+      "kind": "image",
+      "asset": "rest_flow",
+      "parameters": {
+        "img": "docs/art_ref/rest/user-reference.jpg",
+        "prompt": "Use the supplied painting only for its restrained poetic underwater mood, sparse movement and muted cream and pale-cyan palette. Create ONE isolated sculptural water-current membrane as a three-dimensional asset guide. A single long delicate translucent gauze-like ribbon gently swept into an OPEN crescent, very widely open with two free tapered tips, a narrow graceful uneven band with a few broad soft ripples along its surface. A large empty negative space inside the open arc. The ribbon is thin and soft like a drifting underwater veil, not a tube or solid ring; one coherent continuous sheet, no disconnected particles or extra ribbons. One tip rolls very slightly toward the viewer so the geometry and thin surface are readable. The surface is matte milky pale cool gray with tiny warm-ivory variation; enough opacity for 3D reconstruction, delicate contour, diffuse light, no glitter, no metallic or glassy shine, no rainbow, no sharp specular highlights. Sparse, calm, hand-art-directed and naturally imperfect. Whole object in three-quarter view, no crop, generous margins, flat medium charcoal gray background. No ground, no stand, no fish, no bubble, no scenery, no text or diagram."
+      },
+      "seconds": 27,
+      "files": [
+        {
+          "file": "assets/lux3d/rest_flow/image_8207922.jpg",
+          "bytes": 244795,
+          "sha256": "dc9953a188967ee3313b47e3bfe078fac5e4be9262cf66caad31eb8eaf7a3b39"
+        }
+      ]
+    },
+    {
+      "taskId": 8207960,
+      "kind": "img3d",
+      "asset": "rest_bubble",
+      "parameters": {
+        "img": "assets/lux3d/rest_bubble/image_8207833.jpg",
+        "version": "G1-Turbo",
+        "faceCount": 12000,
+        "outputFormat": [
+          "glb"
+        ],
+        "enablePbr": true
+      },
+      "seconds": 67,
+      "files": [
+        {
+          "file": "assets/lux3d/rest_bubble/img3d_8207960.glb",
+          "bytes": 6122844,
+          "sha256": "12e86bca9a7ffd832d9019eebaac106fb1890eb3ff60e7188b1eaf8d0f771b1b"
+        }
+      ]
+    },
+    {
+      "taskId": 8208085,
+      "kind": "img3d",
+      "asset": "rest_flow",
+      "parameters": {
+        "img": "assets/lux3d/rest_flow/image_8207922.jpg",
+        "version": "G1-Turbo",
+        "faceCount": 18000,
+        "outputFormat": [
+          "glb"
+        ],
+        "enablePbr": true
+      },
+      "seconds": 132,
+      "files": [
+        {
+          "file": "assets/lux3d/rest_flow/img3d_8208085.glb",
+          "bytes": 7037716,
+          "sha256": "592b915531e6a1f6015512e8417c5e61242df5dc6cc43c3d5636654e2358ec30"
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "kind": "bubble",
+      "url": "/models/rest_bubble.glb",
+      "file": "public/models/rest_bubble.glb",
+      "bytes": 73808,
+      "sha256": "2a776bf0a9a82d5146d378fb7cfbfd062be50b1cd944a5c600f71225447df4f0",
+      "bounds": {
+        "min": [
+          -0.4881097674369812,
+          -0.5,
+          -0.4841245114803314
+        ],
+        "max": [
+          0.4881097674369812,
+          0.5,
+          0.4841245114803314
+        ],
+        "size": [
+          0.9762195348739624,
+          1,
+          0.9682490229606628
+        ]
+      },
+      "triangles": 3000,
+      "topology": {
+        "method": "coincident-position geometric edge audit, no source mutation",
+        "geometricVertices": 1502,
+        "connectedComponents": 1,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "absoluteSignedVolume": 0.5044283734386067
+      },
+      "original": {
+        "file": "assets/lux3d/rest_bubble/img3d_8207960.glb",
+        "sha256": "12e86bca9a7ffd832d9019eebaac106fb1890eb3ff60e7188b1eaf8d0f771b1b",
+        "bytes": 6122844,
+        "vertices": 5838,
+        "triangles": 10456,
+        "bbox": {
+          "min": [
+            -0.006000000052154064,
+            -0.006148632150143385,
+            -0.005951012019068003
+          ],
+          "max": [
+            0.006000000052154064,
+            0.006148632150143385,
+            0.005951012019068003
+          ],
+          "size": [
+            0.012000000104308128,
+            0.01229726430028677,
+            0.011902024038136005
+          ]
+        },
+        "topology": {
+          "method": "coincident-position geometric edge audit, no source mutation",
+          "geometricVertices": 5230,
+          "connectedComponents": 1,
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "absoluteSignedVolume": 9.388793731907913e-7
+        },
+        "invalid": 0,
+        "materials": 1,
+        "textures": 2,
+        "skins": 0,
+        "extensions": [],
+        "projectionCoverage": [
+          157286,
+          158930,
+          157286,
+          155516
+        ],
+        "projectionViews": [
+          "front +Z",
+          "side +X",
+          "rear -Z",
+          "top +Y"
+        ]
+      },
+      "finalAudit": "artifacts/rest/rest_bubble_final-audit.json"
+    },
+    {
+      "kind": "current",
+      "url": "/models/rest_current.glb",
+      "file": "public/models/rest_current.glb",
+      "bytes": 145672,
+      "sha256": "5377572e0c47927c7c93bc4ee3ae2b3017c677f6f8e3e497139bc34e56af3086",
+      "bounds": {
+        "min": [
+          -0.5,
+          -0.23778772354125977,
+          -0.48570868372917175
+        ],
+        "max": [
+          0.5,
+          0.23778772354125977,
+          0.48570868372917175
+        ],
+        "size": [
+          1,
+          0.47557544708251953,
+          0.9714173674583435
+        ]
+      },
+      "triangles": 5998,
+      "topology": {
+        "method": "coincident-position geometric edge audit, no source mutation",
+        "geometricVertices": 2999,
+        "connectedComponents": 1,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 2,
+        "absoluteSignedVolume": 0.014776799952225009
+      },
+      "original": {
+        "file": "assets/lux3d/rest_flow/img3d_8208085.glb",
+        "sha256": "592b915531e6a1f6015512e8417c5e61242df5dc6cc43c3d5636654e2358ec30",
+        "bytes": 7037716,
+        "vertices": 9833,
+        "triangles": 14238,
+        "bbox": {
+          "min": [
+            -0.44999998807907104,
+            -0.2138781100511551,
+            -0.43675294518470764
+          ],
+          "max": [
+            0.44999998807907104,
+            0.2138781100511551,
+            0.43675294518470764
+          ],
+          "size": [
+            0.8999999761581421,
+            0.4277562201023102,
+            0.8735058903694153
+          ]
+        },
+        "topology": {
+          "method": "coincident-position geometric edge audit, no source mutation",
+          "geometricVertices": 7119,
+          "connectedComponents": 1,
+          "boundaryEdges": 0,
+          "nonManifoldEdges": 0,
+          "absoluteSignedVolume": 0.01076705543430767
+        },
+        "invalid": 0,
+        "materials": 1,
+        "textures": 2,
+        "skins": 0,
+        "extensions": [],
+        "projectionCoverage": [
+          77581,
+          86358,
+          77581,
+          24555
+        ],
+        "projectionViews": [
+          "front +Z",
+          "side +X",
+          "rear -Z",
+          "top +Y"
+        ]
+      },
+      "finalAudit": "artifacts/rest/rest_current_final-audit.json"
+    }
+  ],
+  "postprocess": [
+    {
+      "time": "2026-11-17T05:08:00.079Z",
+      "input": "assets/lux3d/rest_bubble/img3d_8207960.glb",
+      "name": "rest_bubble",
+      "height": 1,
+      "trisBefore": 10456,
+      "outputs": [
+        {
+          "file": "public\\models\\rest_bubble.glb",
+          "tris": 3000,
+          "bytes": 73808
+        }
+      ],
+      "color": [
+        0.56,
+        0.52,
+        0.42
+      ],
+      "flags": [
+        "--color",
+        "--seamweld",
+        "--center",
+        "--palette"
+      ],
+      "yaw": 0
+    },
+    {
+      "time": "2026-11-17T05:11:58.243Z",
+      "input": "assets/lux3d/rest_flow/img3d_8208085.glb",
+      "name": "rest_current",
+      "height": 1,
+      "trisBefore": 14238,
+      "outputs": [
+        {
+          "file": "public\\models\\rest_current.glb",
+          "tris": 5998,
+          "bytes": 145672
+        }
+      ],
+      "color": [
+        0.42,
+        0.49,
+        0.51
+      ],
+      "flags": [
+        "--length",
+        "--color",
+        "--seamweld",
+        "--center",
+        "--palette"
+      ],
+      "yaw": 0
+    }
+  ],
+  "runtime": {
+    "module": "src/rest_atmosphere.js",
+    "bubbles": 10,
+    "currents": 2,
+    "drawCalls": 2,
+    "uniqueTriangles": 8998,
+    "submittedTriangles": 41996,
+    "totalModelBytes": 219480,
+    "currentYInstanceScale": 0.15,
+    "roadBubbleScale": [
+      0.22,
+      0.65
+    ],
+    "roadBubbleOrbitRadius": [
+      1.2,
+      2.8
+    ],
+    "bubbleAlpha": "full-reveal center alpha about .873-.94, continuously zero at silhouette; no Fresnel ring or specular reflection",
+    "bubbleOpticalNormalBlend": 0.82,
+    "bubbleCenterColorGain": 1.42,
+    "currentMaximumFragmentAlpha": 0.0792,
+    "coordinateSystem": "world group; carrier-local trajectory and cabin checks transformed back through actual body.matrixWorld",
+    "transparency": "normal blending, depthTest true, depthWrite false; no point lights; broad gradual edge/depth softness",
+    "softMotion": "true mesh surface deformation and world-space trajectories; no geometric substitutes"
+  },
+  "limitations": [
+    "Lux returns opaque finite meshes, not physically simulated air/water, participating media, or a fluid solver.",
+    "Bubble is a closed organic shell; soft thin-film appearance is a runtime optical material.",
+    "Current is an open C-shaped folded membrane with excessive upright fold height; documented Y compression affects instances only, source indices/positions remain intact.",
+    "Current final geometric-edge audit reports two non-manifold edges; this decorative render-only membrane is not used for collision or fluid simulation.",
+    "Raw PBR texture is preserved with originals; final diffuse source colors are baked to vertices and compressed into the restrained palette.",
+    "Offline geometry, topology and source checks do not substitute for final in-game GPU visual acceptance."
+  ]
+}

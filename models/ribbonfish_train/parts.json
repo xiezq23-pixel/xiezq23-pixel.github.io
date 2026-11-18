@@ -1,0 +1,130 @@
+{
+  "taskId": 8159964,
+  "parts": [
+    {
+      "index": 0,
+      "name": "body",
+      "vertices": 17724,
+      "triangles": 34580
+    },
+    {
+      "index": 1,
+      "name": "dorsal_fin",
+      "vertices": 6673,
+      "triangles": 12697
+    },
+    {
+      "index": 2,
+      "name": "left_pectoral_fin",
+      "vertices": 953,
+      "triangles": 1862
+    },
+    {
+      "index": 3,
+      "name": "right_pectoral_fin",
+      "vertices": 1072,
+      "triangles": 2087
+    },
+    {
+      "index": 4,
+      "name": "lower_jaw",
+      "vertices": 3747,
+      "triangles": 7260
+    }
+  ],
+  "joints": [
+    {
+      "name": "dorsal_fin_joint",
+      "part": 1,
+      "parent": "body",
+      "pivot": [
+        44.88750000447035,
+        0.7349996261491931,
+        0.08999999642372145
+      ],
+      "axis": [
+        -0.9945401764234867,
+        -0.1042040184849609,
+        -0.005600000993395465
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599,
+      "sourceOrigin": {
+        "rpy": "0 0 0",
+        "xyz": "-0.00150000 0.10591627 0.00120000"
+      }
+    },
+    {
+      "name": "left_pectoral_fin_joint",
+      "part": 2,
+      "parent": "body",
+      "pivot": [
+        73.64999886155132,
+        -2.3700002504691975,
+        3.33749986737967
+      ],
+      "axis": [
+        -0.03300099183895474,
+        0.9933277543530568,
+        0.11050297267294976
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599,
+      "sourceOrigin": {
+        "rpy": "0 0 0",
+        "xyz": "0.38200000 0.06451627 0.04450000"
+      }
+    },
+    {
+      "name": "right_pectoral_fin_joint",
+      "part": 3,
+      "parent": "body",
+      "pivot": [
+        73.48499886810784,
+        -2.145000259409893,
+        -3.359999866485601
+      ],
+      "axis": [
+        -0.04970199294182048,
+        -0.9929398589926206,
+        0.1077039847049582
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599,
+      "sourceOrigin": {
+        "rpy": "0 0 0",
+        "xyz": "0.37980000 0.06751627 -0.04480000"
+      }
+    },
+    {
+      "name": "lower_jaw_joint",
+      "part": 4,
+      "parent": "body",
+      "pivot": [
+        76.87499873340134,
+        -4.1250001807317656,
+        0.44999998211860726
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "lower": -0.523599,
+      "upper": 0,
+      "sourceOrigin": {
+        "rpy": "0 0 0",
+        "xyz": "0.42500000 0.04111627 0.00600000"
+      }
+    }
+  ],
+  "source": {
+    "urdf": "assets\\lux3d\\ribbonfish_train\\parts_8159964\\urdf\\robot.urdf",
+    "bodyTaskId": 8151772,
+    "scale": 74.99999701976787,
+    "fullUrdfTransforms": true,
+    "triangleCount": 58486,
+    "maximumSourceVertexError": 9.610960183499514e-7,
+    "unmatchedVertices": 0
+  }
+}

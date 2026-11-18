@@ -1,0 +1,32 @@
+{
+ "source": "assets/lux3d/lg_park/swing_artic_8298054/urdf",
+ "scale": 1.24534,
+ "translate": [
+  -0.0536,
+  0,
+  0.0051
+ ],
+ "joints": [
+  {
+   "name": "swing_seat_joint",
+   "type": "revolute",
+   "parent": "base",
+   "child": "swing_seat",
+   "pivot": [
+    -0.0057,
+    3.3699,
+    0.0103
+   ],
+   "axis": [
+    -0.99996,
+    -0.002,
+    -0.0086
+   ],
+   "limit": [
+    -1.570796,
+    1.570796
+   ],
+   "restAngle": 0
+  }
+ ]
+}

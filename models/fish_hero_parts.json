@@ -1,0 +1,183 @@
+{
+  "parts": [
+    {
+      "index": 0,
+      "name": "body",
+      "vertices": 8161
+    },
+    {
+      "index": 1,
+      "name": "tail_fin",
+      "vertices": 2987
+    },
+    {
+      "index": 2,
+      "name": "dorsal_fin",
+      "vertices": 1895
+    },
+    {
+      "index": 3,
+      "name": "anal_fin",
+      "vertices": 1135
+    },
+    {
+      "index": 4,
+      "name": "pelvic_fin_right",
+      "vertices": 1263
+    },
+    {
+      "index": 5,
+      "name": "pelvic_fin_left",
+      "vertices": 1449
+    },
+    {
+      "index": 6,
+      "name": "pectoral_fin_right",
+      "vertices": 3601
+    },
+    {
+      "index": 7,
+      "name": "pectoral_fin_left",
+      "vertices": 3316
+    },
+    {
+      "index": 8,
+      "name": "jaw",
+      "vertices": 2013
+    }
+  ],
+  "joints": [
+    {
+      "name": "tail_fin_joint",
+      "part": 1,
+      "pivot": [
+        0.5504,
+        0.0421,
+        -0.0016
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    },
+    {
+      "name": "dorsal_fin_joint",
+      "part": 2,
+      "pivot": [
+        -0.0139,
+        0.1499,
+        -0.0016
+      ],
+      "axis": [
+        -0.986165,
+        0.165394,
+        -0.0111
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    },
+    {
+      "name": "anal_fin_joint",
+      "part": 3,
+      "pivot": [
+        0.2368,
+        -0.0475,
+        0.0021
+      ],
+      "axis": [
+        -0.971379,
+        -0.237495,
+        -0.0044
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    },
+    {
+      "name": "pelvic_fin_right_joint",
+      "part": 4,
+      "pivot": [
+        -0.1163,
+        -0.1125,
+        0.0283
+      ],
+      "axis": [
+        -0.992662,
+        -0.093896,
+        -0.076197
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    },
+    {
+      "name": "pelvic_fin_left_joint",
+      "part": 5,
+      "pivot": [
+        -0.1211,
+        -0.1131,
+        -0.024
+      ],
+      "axis": [
+        -0.968792,
+        -0.121599,
+        0.215998
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    },
+    {
+      "name": "pectoral_fin_right_joint",
+      "part": 6,
+      "pivot": [
+        -0.4901,
+        -0.0288,
+        0.0693
+      ],
+      "axis": [
+        -0.65647,
+        0.754266,
+        -0.011399
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    },
+    {
+      "name": "pectoral_fin_left_joint",
+      "part": 7,
+      "pivot": [
+        -0.4773,
+        -0.0405,
+        -0.0709
+      ],
+      "axis": [
+        -0.501494,
+        0.863889,
+        -0.046899
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    },
+    {
+      "name": "jaw_joint",
+      "part": 8,
+      "pivot": [
+        -0.5701,
+        0.0235,
+        -0.0064
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    }
+  ],
+  "source": {
+    "urdf": "assets/lux3d/fish_artic2/unz/urdf/robot.urdf",
+    "scale": 5.3333
+  }
+}

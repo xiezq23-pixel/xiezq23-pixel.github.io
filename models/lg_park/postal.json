@@ -1,0 +1,78 @@
+{
+ "version": 1,
+ "note": "邮筒 4、信箱 2，固定位置；开河后才出现。yaw 让正面（+z）朝向河。",
+ "items": [
+  {
+   "id": "letterbox_gold_0",
+   "kind": "letterbox",
+   "river": "gold",
+   "s": 69100,
+   "x": -177.7,
+   "z": -173.76,
+   "yaw": 0.8326,
+   "side": -1,
+   "distToCenter": 232,
+   "minGap": 4368
+  },
+  {
+   "id": "letterbox_peach_1",
+   "kind": "letterbox",
+   "river": "peach",
+   "s": 18340,
+   "x": 3422.28,
+   "z": 741.49,
+   "yaw": 1.3848,
+   "side": 1,
+   "distToCenter": 3519,
+   "minGap": 1081
+  },
+  {
+   "id": "postbox_gold_2",
+   "kind": "postbox",
+   "river": "gold",
+   "s": 75300,
+   "x": 2099.56,
+   "z": -4110.52,
+   "yaw": -0.3672,
+   "side": -1,
+   "distToCenter": 4599,
+   "minGap": 4535
+  },
+  {
+   "id": "postbox_peach_3",
+   "kind": "postbox",
+   "river": "peach",
+   "s": 48060,
+   "x": -4536.92,
+   "z": -348.67,
+   "yaw": -1.0453,
+   "side": 1,
+   "distToCenter": 4564,
+   "minGap": 4390
+  },
+  {
+   "id": "postbox_gold_4",
+   "kind": "postbox",
+   "river": "gold",
+   "s": 19980,
+   "x": -1270.62,
+   "z": 4187.68,
+   "yaw": -2.7741,
+   "side": -1,
+   "distToCenter": 4363,
+   "minGap": 4474
+  },
+  {
+   "id": "postbox_peach_5",
+   "kind": "postbox",
+   "river": "peach",
+   "s": 20740,
+   "x": 3336.09,
+   "z": 3141.09,
+   "yaw": 1.6179,
+   "side": 1,
+   "distToCenter": 4594,
+   "minGap": 2397
+  }
+ ]
+}

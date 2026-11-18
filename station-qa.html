@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>候车 · 城市漂流</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;height:100%;background:#252b2c;color:#e7decb;font:13px/1.6 system-ui}iframe{width:100%;height:100%;border:0;display:block}.panel{position:fixed;top:16px;right:16px;width:310px;padding:14px;border:1px solid #e9d4b52b;border-radius:8px;background:#292b2ce8}h1{font-size:17px;font-weight:500;margin:0 0 8px}p{font-size:11px;color:#c6c1b6;margin:7px 0}.buttons{display:flex;gap:5px;flex-wrap:wrap;margin:8px 0}button{background:#565b5866;border:1px solid #cbbfa74f;border-radius:4px;color:#eee4cf;padding:6px 8px;cursor:pointer;font:inherit;font-size:12px}button:disabled{opacity:.35;cursor:default}#state{font-size:12px;white-space:pre-wrap}details{margin-top:9px}pre{max-height:29vh;overflow:auto;white-space:pre-wrap;font:10px/1.5 monospace}.hidden{display:none}#show{position:fixed;top:14px;right:14px}
+</style>  <script type="module" crossorigin src="/assets/stationQA-CoIzsfia.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-B5Qt9EMX.js">
+</head><body>
+<iframe id="game" title="真实游戏中的固定候车站" src="/?t=19&speed=1&restStyle=membrane"></iframe>
+<button id="show" class="hidden">显示面板</button><section id="panel" class="panel"><h1>车站 · 实机预览</h1>
+<p>定位只把原鱼放到真实站旁并暂停。候车使用正常帧循环，不强制入舱。</p>
+<div class="buttons"><button id="locateWhale" disabled>仅定位鲸鱼站</button><button id="locateRibbon" disabled>仅定位带鱼站</button></div>
+<div class="buttons"><button id="waitWhale" disabled>鲸鱼站候车</button><button id="waitRibbon" disabled>带鱼站候车</button></div>
+<div class="buttons"><button id="seatWhale" disabled>长椅候车画面</button></div>
+<div class="buttons"><button id="cancelWait" disabled>取消等车</button><button id="exitRide" disabled>在另一站下车</button></div>
+<div class="buttons"><button id="pause" disabled>继续</button><button id="save" disabled>保存真实画布</button><button id="hide">隐藏面板</button></div>
+<div id="state" role="status">载入真实路网与 Lux 资产…</div>
+<details><summary>本轮运行记录</summary><pre id="report"></pre></details>
+</section></body></html>

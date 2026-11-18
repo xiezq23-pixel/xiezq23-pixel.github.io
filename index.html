@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><link rel="icon" href="data:,">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>城市漂流</title>
+  <style>
+    :root { --ink: #e9e4d8; --dim: rgba(233, 228, 216, 0.55); --red: #e2463b; }
+    html, body { margin: 0; height: 100%; background: #070a12; overflow: hidden; color: var(--ink);
+      font-family: var(--ui-font); }
+    canvas { display: block; }
+    #title { position: fixed; left: 6.5vw; right: auto; top: 14vh; text-align: left; pointer-events: none;
+      transition: opacity 2.4s ease; }
+    #title h1 { font-weight: 300; letter-spacing: 0.48em; margin: 0 0 23px; font-size: clamp(27px,2.5vw,36px); line-height:1.7; }
+    #title p { margin: 0; color: rgba(218,216,207,.42); letter-spacing: 0.36em; font-size: 11px; }
+    #hud { position: fixed; left: 28px; bottom: 24px; font-size: 13px; letter-spacing: 0.18em; color: var(--dim);
+      opacity: 0; transition: opacity 3s ease; pointer-events: none; line-height: 1.9; }
+    #hud b { color: var(--ink); font-weight: 400; }
+    /* ---------- 统一界面：毛玻璃面板 + 胶囊按钮（车站、电台、河边小物、岔口、提示都用这一套） ---------- */
+    :root {
+      --ui-font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI Variable Text", "Segoe UI", "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      --ui-text: rgba(255,255,255,.94); --ui-text-2: rgba(255,255,255,.62);
+      --ui-size: 14px; --ui-size-s: 12px; --ui-track: .08em;
+      --ui-glass: rgba(32,30,28,.36); --ui-line: rgba(255,255,255,.14);
+      --ui-blur: saturate(170%) blur(22px);
+      --ui-shadow: 0 10px 30px rgba(0,0,0,.16), inset 0 1px 0 rgba(255,255,255,.08);
+      --ui-radius: 18px;
+      --ui-ask-bottom: calc(15% + 112px); /* 问句面板统一放在岔口箭头上方，不相互压住 */
+    }
+    .ui-glass { background: var(--ui-glass); -webkit-backdrop-filter: var(--ui-blur); backdrop-filter: var(--ui-blur);
+      border: 1px solid var(--ui-line); box-shadow: var(--ui-shadow); }
+    .ui-panel { font: 400 var(--ui-size)/1.5 var(--ui-font); letter-spacing: var(--ui-track); color: var(--ui-text);
+      border-radius: var(--ui-radius); padding: 14px 16px 12px; text-align: center; box-sizing: border-box; }
+    .ui-q { margin: 0 6px 12px; white-space: nowrap; }
+    .ui-row { display: flex; gap: 8px; justify-content: center; }
+    .ui-btn { appearance: none; -webkit-appearance: none; margin: 0; font: 500 13px/1 var(--ui-font); letter-spacing: .12em;
+      height: 32px; min-width: 68px; padding: 0 16px 0 calc(16px + .12em); border: 0; border-radius: 999px;
+      color: var(--ui-text); background: rgba(255,255,255,.14); cursor: pointer; outline: none;
+      transition: background .2s ease, color .2s ease, transform .12s ease; }
+    .ui-btn:hover { background: rgba(255,255,255,.24); }
+    .ui-btn:active { transform: scale(.97); }
+    .ui-btn.hi, .ui-btn:focus-visible, .cabin-tv-question .ui-btn:focus { background: rgba(255,255,255,.92); color: #1d1b19; }
+    .ui-btn:disabled { opacity: .4; cursor: default; }
+    .ui-btn.ui-glass { background: var(--ui-glass); }
+    .ui-btn.ui-glass:hover { background: rgba(60,56,52,.46); }
+
+    #sign { position: fixed; left: 50%; top: 10%; transform: translateX(-50%); pointer-events: none; opacity: 0;
+      transition: opacity 1.2s ease; white-space: nowrap;
+      font: 400 var(--ui-size)/1.5 var(--ui-font); letter-spacing: var(--ui-track); color: var(--ui-text);
+      padding: 9px 20px; border-radius: 999px; background: var(--ui-glass); -webkit-backdrop-filter: var(--ui-blur); backdrop-filter: var(--ui-blur);
+      border: 1px solid var(--ui-line); box-shadow: var(--ui-shadow); }
+    #sign.station { top: 18%; padding: 0; border: 0; border-radius: 0; background: none; box-shadow: none; -webkit-backdrop-filter: none; backdrop-filter: none;
+      font-size: 28px; font-weight: 300; letter-spacing: .32em; text-indent: .32em; color: #fff;
+      text-shadow: 0 1px 16px rgba(0,0,0,.28); text-align: center; transition: opacity 2.2s ease; }
+    #sign.station small { display: block; font-size: var(--ui-size-s); font-weight: 400; letter-spacing: var(--ui-track); text-indent: 0; margin-top: 8px;
+      color: var(--ui-text-2); font-variant-numeric: tabular-nums; }
+    #fork { position: fixed; left: 50%; bottom: 15%; transform: translateX(-50%); pointer-events: none; opacity: 0; text-align: center;
+      font-family: var(--ui-font); color: var(--ui-text); }
+    #fork .opts, #fork .teach { display: inline-flex; align-items: center; gap: 2px; padding: 4px; border-radius: 999px;
+      background: var(--ui-glass); -webkit-backdrop-filter: var(--ui-blur); backdrop-filter: var(--ui-blur);
+      border: 1px solid var(--ui-line); box-shadow: var(--ui-shadow); }
+    #fork .opt { display: inline-flex; align-items: center; justify-content: center; gap: 6px; height: 36px; min-width: 52px; padding: 0 14px;
+      box-sizing: border-box; border-radius: 999px; white-space: nowrap; color: var(--ui-text-2);
+      transition: background .25s ease, color .25s ease; }
+    #fork .opt i { font-style: normal; font-size: 19px; line-height: 1; }
+    #fork .opt em { font-style: normal; font-size: 11px; font-weight: 500; letter-spacing: 0; }
+    #fork .opt.up em { color: #ffd59a; } #fork .opt.down em { color: #a9dde8; }
+    #fork .opt.ring { color: rgba(170,240,255,.78); }
+    #fork .opt.on { color: #1d1b19; background: rgba(255,255,255,.92); }
+    #fork .opt.ring.on { color: #0f2a30; background: rgba(206,246,255,.94); }
+    #fork .opt.on.up em { color: #a5671a; } #fork .opt.on.down em { color: #2b7385; }
+    #fork.key .opt { height: 40px; padding: 0 16px; }
+    #fork.key .opt i { font-size: 21px; }
+    #fork .teach { display: flex; width: max-content; margin: 0 auto 10px; gap: 12px; padding: 5px 6px; }
+    #fork .teach .key { display: inline-block; width: 30px; height: 30px; line-height: 30px; border-radius: 999px; font-size: 14px; font-weight: 600;
+      color: #1d1b19; background: rgba(255,255,255,.92); animation: pressk 1.2s ease-in-out infinite; }
+    #fork .teach .key:last-child { animation-delay: .6s; }
+    #fork .teach .tt { font-size: var(--ui-size); letter-spacing: var(--ui-track); color: var(--ui-text); }
+    @keyframes pressk { 0%, 100% { transform: scale(1); } 50% { transform: scale(.9); } }
+    #card .bridges { display: inline-block; margin-top: 4px; color: #ffcf8a; font-size: 12px; letter-spacing: 0.25em; }
+    :root { --ending-gutter:clamp(22px,3vw,42px); --ending-map-size:clamp(208px,24vw,288px); }
+    #card { position:fixed; left:var(--ending-gutter); top:calc(var(--ending-gutter) + var(--ending-map-size) + 18px); max-width:min(340px,calc(100vw - 44px)); pointer-events:none; opacity:0; transition:none; z-index:9;
+      letter-spacing:0.22em; line-height:2; font-size:12px; text-shadow:0 1px 14px rgba(0,0,0,.14); }
+    #ending-route-map { position:fixed; left:var(--ending-gutter); top:var(--ending-gutter); width:var(--ending-map-size); height:var(--ending-map-size); pointer-events:none; opacity:0; transition:none; z-index:9; }
+    #ending-route-map canvas { display:block; width:100%; height:100%; background:transparent; }
+    #ending-route-map::before { content:''; position:absolute; inset:-12%; z-index:-1; pointer-events:none; background:radial-gradient(ellipse,rgba(8,12,16,.18),transparent 72%); }
+    #ending-route-map[data-theme=light]::before { background:radial-gradient(ellipse,rgba(241,239,229,.16),transparent 72%); }
+    body[data-ending-theme=light] #card { color:#505c64; text-shadow:0 1px 14px rgba(255,255,255,.2); }
+    @media(max-height:620px){ :root { --ending-map-size:clamp(176px,35vh,230px); } #card { top:calc(var(--ending-gutter) + var(--ending-map-size) + 10px); } }
+
+    #card .again { display:inline-block; margin-top:14px; font-size:10px; opacity:.42; letter-spacing:.16em; }
+    #card h2 { font-weight: 300; font-size: 26px; letter-spacing: 0.6em; margin: 0 0 8px; }
+    #vignette { position: fixed; inset: 0; pointer-events: none;
+      background: radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.42) 100%); }
+    #card .line { display: inline-block; margin-top: 10px; opacity: 0.85; letter-spacing: 0.3em; }
+    #pick { position: fixed; left: 6.5vw; top: auto; bottom: 12vh; transform: translate3d(var(--control-x,0px),var(--control-y,0px),0); text-align: center; transition: opacity 1.2s ease; }
+    #stick { width: 180px; height: 180px; border-radius: 50%; border: 1px solid rgba(233,228,216,0.18);
+      background: radial-gradient(circle, rgba(233,228,216,0.045), rgba(233,228,216,0.005)); position: relative; margin: 0 auto; touch-action: none; cursor: grab; }
+    #knob { width: 44px; height: 44px; border-radius: 50%; background: rgba(233,228,216,0.78); position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+      box-shadow: 0 0 24px rgba(255,230,190,0.16), inset 0 0 0 1px rgba(255,255,255,.28); pointer-events: none; }
+    #pick p { margin: 20px 0 0; color: rgba(218,216,207,.38); letter-spacing: 0.3em; font-size: 10px; }
+    #drop { margin-top: 20px; display: inline-block; padding: 11px 26px 11px 32px; border: 0; border-bottom: 1px solid rgba(233,228,216,.35); letter-spacing: 0.5em; cursor: pointer; font-size: 12px; color: rgba(240,237,228,.88); transition: background .4s, border-color .4s; }
+    #drop:hover { background: rgba(233,228,216,0.12); }
+    #help { position: fixed; right: 24px; bottom: 22px; font-size: 11px; color: rgba(233,228,216,0.35);
+      letter-spacing: 0.12em; text-align: right; line-height: 1.8; pointer-events: none; }
+    body.opening #help { opacity: 0; visibility: hidden; }
+    #help { transition: opacity 1.8s ease; }
+    body.opening #vignette { background: radial-gradient(ellipse at 62% 48%, transparent 18%, rgba(3,5,8,.16) 53%, rgba(2,4,7,.84) 100%); }
+    body.opening #title::before { content: ''; display: block; width: 30px; height: 1px; background: rgba(218,216,207,.32); margin-bottom: 28px; }
+    #landing-point { position: fixed; left:0; top:0; width:36px; height:36px; border:1px solid rgba(255,237,199,.85); border-radius:50%; pointer-events:none; z-index:6; opacity:0; box-shadow:0 0 18px rgba(255,217,150,.18); will-change:transform; }
+    #landing-point::before { content:''; position:absolute; inset:-7px; border:1px solid rgba(255,237,199,.15); border-radius:50%; }
+    #landing-point span { position:absolute; width:8px; height:8px; left:50%; top:50%; transform:translate(-50%,-50%); border-radius:50%; background:#fff0ce; box-shadow:0 0 10px rgba(255,218,155,.7); }
+    @media (max-width:759px) {
+      #title { left:9vw; top:7vh; } #title h1 { font-size:26px; letter-spacing:.5em; margin-bottom:10px; }
+      body.opening #title::before { margin-bottom:16px; width:24px; }
+      #pick { left:50%; bottom:4vh; transform:translate3d(calc(-50% + var(--control-x,0px)),var(--control-y,0px),0); }
+      #stick { width:140px; height:140px; } #knob { width:36px; height:36px; } #pick p { margin-top:10px; } #drop { margin-top:5px; }
+      body.opening #vignette { background: radial-gradient(ellipse at 50% 44%,transparent 20%,rgba(3,5,8,.2) 55%,rgba(2,4,7,.82) 100%); }
+    }
+  </style>
+  <script type="module" crossorigin src="/assets/main-D-eFNrIu.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="modulepreload" crossorigin href="/assets/three.module-BbQ0mWiG.js">
+  <link rel="modulepreload" crossorigin href="/assets/MeshBVH-D4AFORhI.js">
+  <link rel="modulepreload" crossorigin href="/assets/GLTFLoader-PiM1tl0c.js">
+  <link rel="modulepreload" crossorigin href="/assets/ribbonfish_train-BDzZ2cxm.js">
+  <link rel="modulepreload" crossorigin href="/assets/track-BzZQoQRZ.js">
+  <link rel="modulepreload" crossorigin href="/assets/traffic_rules-CAsUsvo6.js">
+  <link rel="modulepreload" crossorigin href="/assets/junction-BQH3hvOm.js">
+  <link rel="modulepreload" crossorigin href="/assets/painted-CO0YLmH1.js">
+  <link rel="modulepreload" crossorigin href="/assets/decks-Bqhas8Oz.js">
+  <link rel="modulepreload" crossorigin href="/assets/SkeletonUtils-BCVmgslc.js">
+  <link rel="modulepreload" crossorigin href="/assets/transit_station_art-9slveHWS.js">
+  <link rel="modulepreload" crossorigin href="/assets/fishrig-D6C-z1WQ.js">
+  <link rel="modulepreload" crossorigin href="/assets/hero-CcYHNWcj.js">
+  <link rel="modulepreload" crossorigin href="/assets/shore_resources-BmbsQC5k.js">
+  <link rel="modulepreload" crossorigin href="/assets/route-DuP6zQPN.js">
+</head>
+<body class="opening">
+  <div id="vignette"></div>
+  <div id="title"><h1>城市漂流</h1><p id="prompt">载入中</p></div>
+  <div id="pick" style="opacity:0"><div id="stick"><div id="knob"></div></div><p id="where" aria-live="off">拖动选择落点</p><div id="drop">坠 落</div></div>
+  <div id="hud"></div>
+  <div id="sign"></div>
+  <div id="fork"></div>
+  <div id="card"></div>
+  <div id="help">什么都不按 就顺着光漂 · 长按 W 蓄力加速，松开缓缓减速 · A / D 左右游、岔口选方向<br>Shift 持续上浮 / 跃桥，松开缓缓下沉 · C 下潜 · 轻点 S 掉头 · 按住 S 逆流 · 空格 停下 · 拖动鼠标 环顾</div>
+</body>
+</html>

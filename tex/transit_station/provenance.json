@@ -1,0 +1,41 @@
+{
+  "posters": [
+    {
+      "kind": "whale",
+      "taskId": 8304590,
+      "source": "assets/lux3d/transit_station_poster_whale_print/original_8304590.jpg",
+      "file": "public/tex/transit_station/poster_whale.png",
+      "crop": [
+        60,
+        340,
+        970,
+        760
+      ],
+      "size": [
+        910,
+        420
+      ],
+      "operations": "Crop generated poster paper around the complete animal; preserve original pixels; PNG encode",
+      "sha256": "8e4215dc8df2f8beb604442e4d3288319acc09a7d947a92cb9c5243b04924937"
+    },
+    {
+      "kind": "ribbonfish",
+      "taskId": 8304599,
+      "source": "assets/lux3d/transit_station_poster_ribbonfish_print/original_8304599.jpg",
+      "file": "public/tex/transit_station/poster_ribbonfish.png",
+      "crop": [
+        40,
+        300,
+        985,
+        800
+      ],
+      "size": [
+        945,
+        500
+      ],
+      "operations": "Crop generated poster paper around the complete animal; preserve original pixels; PNG encode",
+      "sha256": "237b514e5c9c113c53d9000a906fb39e9d6c045571aa88289ae8ca567c19df95"
+    }
+  ],
+  "actualCredits": null
+}

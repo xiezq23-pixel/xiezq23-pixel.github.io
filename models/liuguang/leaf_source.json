@@ -1,0 +1,46 @@
+{
+  "id": "leaf",
+  "taskId": 8225286,
+  "raw": "assets/lux3d/lg_b/lg_b_ginkgo_leaf_mesh/img3d_8225286_0.glb",
+  "rawSha256": "1b4b0d68080ab5c320f51dc081217326bf1bc89fcc0e187931658786b39e2d62",
+  "sourceTriangles": 4126,
+  "sourceVertices": 2933,
+  "transform": {
+    "origin": [
+      -0.007171472709160298,
+      -0.05299433693289757,
+      0.0029211277531950536
+    ],
+    "uniformScale": 1.6982946708807716,
+    "curvatureScale": 0.8,
+    "rotationDegrees": [
+      -90,
+      0,
+      0
+    ]
+  },
+  "lod": {
+    "requestedTriangles": 40,
+    "triangles": 126,
+    "vertices": 65,
+    "meshoptRelativeError": 0.04701966419816017,
+    "targetReached": false,
+    "sourceVerticesPreserved": true
+  },
+  "atlasUV": "真实源正面XY投影到母叶图四格中第一格；运行时选变体",
+  "bytes": 4760,
+  "sha256": "62df20074bd588cfea483c92a2226f3f940393538fc600c919de4cab1988c6bf",
+  "bounds": {
+    "min": [
+      -0.06848971545696259,
+      -0.023756790906190872,
+      -0.18000000715255737
+    ],
+    "max": [
+      0.0928482711315155,
+      0.01581929437816143,
+      -1.1808385815227776e-19
+    ]
+  },
+  "review": "候选，需原模与LOD视觉确认，不因请求40面就宣称实际40面"
+}

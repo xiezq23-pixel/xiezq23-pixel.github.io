@@ -1,0 +1,47 @@
+{
+  "id": "carpet",
+  "taskId": 8227489,
+  "raw": "assets/lux3d/lg_b/lg_b_ginkgo_carpet_mesh/img3d_8227489_0.glb",
+  "rawSha256": "9fd2f021311885331f354e86eaf0593ef18a3abd4a69711f6fe657e045ee8737",
+  "sourceTriangles": 26560,
+  "sourceVertices": 38694,
+  "transform": {
+    "origin": [
+      0,
+      -0.05906209349632263,
+      0
+    ],
+    "uniformScale": 3.7500000838190335,
+    "heightScale": 0.10158799850640454,
+    "curvatureScale": 1,
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ]
+  },
+  "lod": {
+    "requestedTriangles": 1800,
+    "triangles": 1888,
+    "vertices": 812,
+    "meshoptRelativeError": 0.007922504097223282,
+    "targetReached": false,
+    "sourceVerticesPreserved": true
+  },
+  "atlasUV": null,
+  "bytes": 41612,
+  "sha256": "c685a1546606962037d6359051378ddbeaf16b6ad16354bd591468965afea205",
+  "bounds": {
+    "min": [
+      -0.5656089782714844,
+      0.0023650818038731813,
+      -0.533587634563446
+    ],
+    "max": [
+      0.6000000238418579,
+      0.04500000178813934,
+      0.5965427160263062
+    ]
+  },
+  "review": "候选，需原模与LOD视觉确认，不因请求40面就宣称实际40面"
+}

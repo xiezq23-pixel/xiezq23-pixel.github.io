@@ -1,0 +1,148 @@
+{
+  "id": "peach",
+  "sources": [
+    {
+      "slot": 0,
+      "file": "assets/lux3d/lg_b/lg_b_peach_flower_ref/image_8225598_0.jpg",
+      "taskId": 8225598,
+      "sha256": "c8a0d85495a6ea8eab096be631d7a4b6195a41310620bceb6304f3593d96b912",
+      "contentRect": [
+        10,
+        14,
+        236,
+        228
+      ],
+      "mask": {
+        "inputSize": [
+          1024,
+          1024
+        ],
+        "crop": {
+          "left": 86,
+          "top": 83,
+          "width": 854,
+          "height": 826
+        },
+        "foregroundFraction": 0.4182853698730469,
+        "whiteThreshold": 190,
+        "chromaThreshold": 14,
+        "method": "边界连通白/中性背景剔除，保留不连通白花心"
+      },
+      "derivedTransform": {
+        "flipX": false,
+        "rotation": 0,
+        "scaleX": 1,
+        "opacity": 1
+      },
+      "note": "真实源图抠图"
+    },
+    {
+      "slot": 1,
+      "file": "assets/lux3d/lg_b/lg_b_peach_petal_ref/image_8225609_0.jpg",
+      "taskId": 8225609,
+      "sha256": "deac37329690b6f34529365bb647b04bb64eb044910b59ef00b4ddc2cb1c8e82",
+      "contentRect": [
+        288,
+        10,
+        191,
+        236
+      ],
+      "mask": {
+        "inputSize": [
+          1024,
+          1024
+        ],
+        "crop": {
+          "left": 215,
+          "top": 156,
+          "width": 591,
+          "height": 730
+        },
+        "foregroundFraction": 0.3005199432373047,
+        "whiteThreshold": 190,
+        "chromaThreshold": 14,
+        "method": "边界连通白/中性背景剔除，保留不连通白花心"
+      },
+      "derivedTransform": {
+        "flipX": false,
+        "rotation": 0,
+        "scaleX": 1,
+        "opacity": 1
+      },
+      "note": "真实源图抠图"
+    },
+    {
+      "slot": 2,
+      "file": "assets/lux3d/lg_b/lg_b_peach_petal_ref/image_8225609_0.jpg",
+      "taskId": 8225609,
+      "sha256": "deac37329690b6f34529365bb647b04bb64eb044910b59ef00b4ddc2cb1c8e82",
+      "contentRect": [
+        51,
+        299,
+        153,
+        170
+      ],
+      "mask": {
+        "inputSize": [
+          1024,
+          1024
+        ],
+        "crop": {
+          "left": 215,
+          "top": 156,
+          "width": 591,
+          "height": 730
+        },
+        "foregroundFraction": 0.3005199432373047,
+        "whiteThreshold": 190,
+        "chromaThreshold": 14,
+        "method": "边界连通白/中性背景剔除，保留不连通白花心"
+      },
+      "derivedTransform": {
+        "flipX": false,
+        "rotation": 18,
+        "scaleX": 0.65,
+        "opacity": 1
+      },
+      "note": "同一真实瓣图的离线侧向压缩旋转，非新Lux任务"
+    },
+    {
+      "slot": 3,
+      "file": "assets/lux3d/lg_b/lg_b_peach_petal_ref/image_8225609_0.jpg",
+      "taskId": 8225609,
+      "sha256": "deac37329690b6f34529365bb647b04bb64eb044910b59ef00b4ddc2cb1c8e82",
+      "contentRect": [
+        288,
+        266,
+        191,
+        236
+      ],
+      "mask": {
+        "inputSize": [
+          1024,
+          1024
+        ],
+        "crop": {
+          "left": 215,
+          "top": 156,
+          "width": 591,
+          "height": 730
+        },
+        "foregroundFraction": 0.3005199432373047,
+        "whiteThreshold": 190,
+        "chromaThreshold": 14,
+        "method": "边界连通白/中性背景剔除，保留不连通白花心"
+      },
+      "derivedTransform": {
+        "flipX": true,
+        "rotation": 0,
+        "scaleX": 1,
+        "opacity": 0.58
+      },
+      "note": "同一真实瓣图的离线透明镜像变体，非新Lux任务"
+    }
+  ],
+  "bytes": 238975,
+  "sha256": "2e3be83e577b43dfca7cb0ca17fa7dba5c2ab6cd598ac3203c9cad77883aa227",
+  "review": "需透明边缘视觉检查，离线同源变体不是额外Lux任务"
+}

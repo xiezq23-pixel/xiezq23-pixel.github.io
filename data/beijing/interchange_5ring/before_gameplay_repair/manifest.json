@@ -1,0 +1,1655 @@
+{
+  "version": "interchange-5ring-v1",
+  "assets": [
+    {
+      "id": "B0FFFAAAV7",
+      "name": "复兴门桥",
+      "center": [
+        -2417.0,
+        189.0
+      ],
+      "radius": 340.0,
+      "complexity": "simple",
+      "rampCount": 1,
+      "seconds": 24.277444299999956,
+      "sourceRampCount": 1,
+      "transformedRampCount": 0,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAAAY5",
+      "name": "建国门桥",
+      "center": [
+        1674.0,
+        98.2
+      ],
+      "radius": 340.0,
+      "complexity": "complex",
+      "rampCount": 3,
+      "seconds": 7.410860000000071,
+      "sourceRampCount": 3,
+      "transformedRampCount": 0,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAA6FJ",
+      "name": "玉泉营桥",
+      "center": [
+        -2979.8,
+        3995.2
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 18.517230299999937,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAAB0U",
+      "name": "莲花桥",
+      "center": [
+        -4800.0,
+        816.1
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 17.248072099999945,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAAJDD",
+      "name": "马甸桥",
+      "center": [
+        -1194.2,
+        -3876.5
+      ],
+      "radius": 340.0,
+      "complexity": "complex",
+      "rampCount": 4,
+      "seconds": 2.73839119999991,
+      "sourceRampCount": 3,
+      "transformedRampCount": 1,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAADD5",
+      "name": "万泉河桥",
+      "center": [
+        -5268.1,
+        -4993.8
+      ],
+      "radius": 340.0,
+      "complexity": "complex",
+      "rampCount": 4,
+      "seconds": 3.321926899999994,
+      "sourceRampCount": 2,
+      "transformedRampCount": 2,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAABNN",
+      "name": "三元东桥",
+      "center": [
+        2836.4,
+        -2966.3
+      ],
+      "radius": 480.0,
+      "complexity": "simple",
+      "rampCount": 1,
+      "seconds": 3.26811859999998,
+      "sourceRampCount": 1,
+      "transformedRampCount": 0,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAADCP",
+      "name": "上清桥",
+      "center": [
+        -2465.6,
+        -7547.1
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.4862405999999737,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": true,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAA8SX",
+      "name": "东直门北桥",
+      "center": [
+        1505.5,
+        -2574.4
+      ],
+      "radius": 280.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.18759980000004362,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": false,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAA9B4",
+      "name": "丰北桥",
+      "center": [
+        -6207.9,
+        2893.6
+      ],
+      "radius": 340.0,
+      "complexity": "complex",
+      "rampCount": 3,
+      "seconds": 7.627683100000013,
+      "sourceRampCount": 2,
+      "transformedRampCount": 1,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAAE98",
+      "name": "为公桥",
+      "center": [
+        -4843.9,
+        -3282.0
+      ],
+      "radius": 420.0,
+      "complexity": "simple",
+      "rampCount": 1,
+      "seconds": 0.0909106999999949,
+      "sourceRampCount": 1,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": false,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAAB07",
+      "name": "丽泽桥",
+      "center": [
+        -4690.1,
+        2798.8
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.22807570000009036,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": false,
+      "partialArms": true
+    },
+    {
+      "id": "B0H17R70CF",
+      "name": "五方桥",
+      "center": [
+        7419.1,
+        2836.1
+      ],
+      "radius": 340.0,
+      "complexity": "simple",
+      "rampCount": 1,
+      "seconds": 0.1493651000000682,
+      "sourceRampCount": 1,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": true,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAAAY2",
+      "name": "健翔桥",
+      "center": [
+        -1272.4,
+        -5197.7
+      ],
+      "radius": 340.0,
+      "complexity": "complex",
+      "rampCount": 4,
+      "seconds": 3.247883399999978,
+      "sourceRampCount": 4,
+      "transformedRampCount": 0,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAA7O6",
+      "name": "六里桥",
+      "center": [
+        -4780.5,
+        1658.4
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 15.728963299999918,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAA9B2",
+      "name": "分钟寺桥",
+      "center": [
+        2582.6,
+        3174.8
+      ],
+      "radius": 340.0,
+      "complexity": "simple",
+      "rampCount": 1,
+      "seconds": 0.16411700000003293,
+      "sourceRampCount": 1,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": false,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAAA89",
+      "name": "十八里店桥",
+      "center": [
+        3837.8,
+        4567.0
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.8926495000000614,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAA6FV",
+      "name": "南沙窝桥",
+      "center": [
+        -6662.2,
+        815.2
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 15.788067599999977,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAA6HU",
+      "name": "四元桥",
+      "center": [
+        3383.2,
+        -4106.3
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 14.610183200000165,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAA6HQ",
+      "name": "四惠桥",
+      "center": [
+        4436.6,
+        162.8
+      ],
+      "radius": 280.0,
+      "complexity": "complex",
+      "rampCount": 4,
+      "seconds": 3.2339858999998796,
+      "sourceRampCount": 3,
+      "transformedRampCount": 1,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAA6HH",
+      "name": "四方桥",
+      "center": [
+        4375.6,
+        2608.3
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.26534079999987625,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": false,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFGBAGGP",
+      "name": "大羊坊桥",
+      "center": [
+        5155.2,
+        6058.5
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.6977440999999089,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": true,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAAIY7",
+      "name": "天宁寺桥",
+      "center": [
+        -2808.7,
+        839.6
+      ],
+      "radius": 280.0,
+      "complexity": "simple",
+      "rampCount": 1,
+      "seconds": 1.0007791000000452,
+      "sourceRampCount": 1,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": false,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAAIWG",
+      "name": "太阳宫桥",
+      "center": [
+        1448.7,
+        -3947.0
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 3.1817237000000205,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": false,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAAIYW",
+      "name": "定慧北桥",
+      "center": [
+        -6576.1,
+        -1311.7
+      ],
+      "radius": 480.0,
+      "complexity": "complex",
+      "rampCount": 4,
+      "seconds": 0.4541870000000472,
+      "sourceRampCount": 3,
+      "transformedRampCount": 1,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFA9PZO",
+      "name": "宛平桥",
+      "center": [
+        -9123.8,
+        4222.2
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.4977443999998741,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": true,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFHFPKH3",
+      "name": "小郊亭桥",
+      "center": [
+        7469.6,
+        1254.3
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.6865772000001016,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": true,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAAJ0R",
+      "name": "新兴桥",
+      "center": [
+        -4789.9,
+        147.4
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 19.811189000000013,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAA7MY",
+      "name": "晋元桥",
+      "center": [
+        -9805.2,
+        -1050.0
+      ],
+      "radius": 340.0,
+      "complexity": "simple",
+      "rampCount": 1,
+      "seconds": 0.12459320000016305,
+      "sourceRampCount": 1,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": true,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAADDE",
+      "name": "望和桥",
+      "center": [
+        2011.5,
+        -5162.9
+      ],
+      "radius": 340.0,
+      "complexity": "complex",
+      "rampCount": 3,
+      "seconds": 9.338282500000105,
+      "sourceRampCount": 2,
+      "transformedRampCount": 1,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAAAEO",
+      "name": "来广营桥",
+      "center": [
+        2697.8,
+        -7053.1
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.4167725999998311,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": true,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAA7NW",
+      "name": "榴乡桥",
+      "center": [
+        988.9,
+        5206.9
+      ],
+      "radius": 340.0,
+      "complexity": "complex",
+      "rampCount": 4,
+      "seconds": 0.6496391999999105,
+      "sourceRampCount": 3,
+      "transformedRampCount": 1,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAAAC8",
+      "name": "火器营桥",
+      "center": [
+        -6089.8,
+        -4338.0
+      ],
+      "radius": 340.0,
+      "complexity": "simple",
+      "rampCount": 1,
+      "seconds": 0.2584216000000197,
+      "sourceRampCount": 1,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": false,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAAAY1",
+      "name": "箭亭桥",
+      "center": [
+        -3867.9,
+        -7374.8
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.22855110000000423,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": true,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAACRW",
+      "name": "紫竹桥",
+      "center": [
+        -4761.7,
+        -2220.8
+      ],
+      "radius": 340.0,
+      "complexity": "complex",
+      "rampCount": 3,
+      "seconds": 3.66410790000009,
+      "sourceRampCount": 2,
+      "transformedRampCount": 1,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAAF5H",
+      "name": "肖家河桥",
+      "center": [
+        -5913.0,
+        -6967.7
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.2856617999998434,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": true,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAA8P6",
+      "name": "菜户营桥",
+      "center": [
+        -2840.5,
+        2785.2
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.21767250000016247,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": false,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAACXF",
+      "name": "衙门口桥",
+      "center": [
+        -9897.6,
+        963.3
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.39224860000012995,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": true,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFA9Q00",
+      "name": "西直门桥",
+      "center": [
+        -2445.2,
+        -2051.1
+      ],
+      "radius": 420.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.25734620000002906,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAADGY",
+      "name": "西红门南桥",
+      "center": [
+        -3200.0,
+        8734.5
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.4561770999998771,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": true,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAA6IU",
+      "name": "阜成门桥",
+      "center": [
+        -2423.7,
+        -917.5
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 2.785431600000038,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": false,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAAJDH",
+      "name": "马家楼桥",
+      "center": [
+        -3023.2,
+        5246.0
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 16.08893910000006,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFF9JN7I",
+      "name": "国贸桥",
+      "center": [
+        2979.4,
+        134.4
+      ],
+      "radius": 280.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 11.041157200000043,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAAEAE",
+      "name": "永定门桥",
+      "center": [
+        -279.0,
+        2558.9
+      ],
+      "radius": 240.0,
+      "complexity": "simple",
+      "rampCount": 1,
+      "seconds": 0.585902600000054,
+      "sourceRampCount": 1,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": false,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAA8R2",
+      "name": "东便门桥",
+      "center": [
+        1688.2,
+        636.5
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.6301447000000735,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": false,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAA8T0",
+      "name": "东直门桥",
+      "center": [
+        1560.0,
+        -2026.9
+      ],
+      "radius": 280.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.3670412999999826,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": false,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAAIZX",
+      "name": "岳各庄南桥",
+      "center": [
+        -6361.9,
+        2498.4
+      ],
+      "radius": 240.0,
+      "complexity": "simple",
+      "rampCount": 1,
+      "seconds": 5.929929800000082,
+      "sourceRampCount": 0,
+      "transformedRampCount": 1,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAA70E",
+      "name": "广安门桥",
+      "center": [
+        -2869.5,
+        1338.5
+      ],
+      "radius": 240.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.8358288000001721,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": false,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAABMV",
+      "name": "德胜门北桥",
+      "center": [
+        -1240.1,
+        -2735.0
+      ],
+      "radius": 240.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.12273860000004788,
+      "sourceRampCount": 1,
+      "transformedRampCount": 1,
+      "portCount": 3,
+      "boundaryClipped": false,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAA9R5",
+      "name": "远通桥",
+      "center": [
+        7187.1,
+        -11.4
+      ],
+      "radius": 240.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 1.352646100000129,
+      "sourceRampCount": 2,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": false,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFA9PSW",
+      "name": "木樨园桥",
+      "center": [
+        -247.9,
+        3478.1
+      ],
+      "radius": 240.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.19386069999995925,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAAADH",
+      "name": "蓟门桥",
+      "center": [
+        -2517.7,
+        -3852.2
+      ],
+      "radius": 240.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.143387999999959,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAA6GS",
+      "name": "大红门桥",
+      "center": [
+        -168.8,
+        5187.8
+      ],
+      "radius": 240.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.13493769999990946,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAA6ZF",
+      "name": "京广桥",
+      "center": [
+        2975.8,
+        -479.2
+      ],
+      "radius": 340.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.9319413000000623,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAA704",
+      "name": "大郊亭桥",
+      "center": [
+        4422.1,
+        1153.0
+      ],
+      "radius": 240.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.11873079999986658,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAA71K",
+      "name": "八角桥",
+      "center": [
+        -9869.8,
+        101.1
+      ],
+      "radius": 240.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.10005930000011176,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": false,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAA84A",
+      "name": "大黄庄桥",
+      "center": [
+        7203.7,
+        -308.9
+      ],
+      "radius": 240.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.09865600000011909,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": false,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAABK0",
+      "name": "学院桥",
+      "center": [
+        -2541.3,
+        -5130.3
+      ],
+      "radius": 240.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.11890940000012051,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "portCount": 3,
+      "boundaryClipped": false,
+      "partialArms": true
+    },
+    {
+      "id": "B0FFFAAJ9S",
+      "name": "五棵松桥",
+      "center": [
+        -6646.4,
+        126.2
+      ],
+      "radius": 240.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.12256409999986317,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAIBW4",
+      "name": "航天桥",
+      "center": [
+        -4784.4,
+        -970.1
+      ],
+      "radius": 240.0,
+      "complexity": "paired",
+      "rampCount": 2,
+      "seconds": 0.1221095000000787,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "portCount": 4,
+      "boundaryClipped": false,
+      "partialArms": false
+    },
+    {
+      "id": "B0FFFAACRE_ornament",
+      "name": "小武基桥",
+      "center": [
+        4241.987772056065,
+        3468.5032757767017
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.02150889999984429,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "s",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAA70C_ornament",
+      "name": "光明桥",
+      "center": [
+        2123.419590403745,
+        1722.700257460503
+      ],
+      "radius": 300.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.013082399999802874,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "half_eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAA88I_ornament",
+      "name": "联想桥",
+      "center": [
+        -3529.3048730184064,
+        -3850.9610228275405
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.022653199999922435,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "s",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAA9AV_ornament",
+      "name": "长虹桥",
+      "center": [
+        2994.167464307393,
+        -1568.60640267783
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.021267200000011144,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "s",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAA6ZC_ornament",
+      "name": "双井桥",
+      "center": [
+        2964.5591050579937,
+        1080.7273344558512
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.022396200000002864,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "s",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAAEB0_ornament",
+      "name": "右安南桥",
+      "center": [
+        -1906.3990572836783,
+        3629.779922019808
+      ],
+      "radius": 300.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.020023399999899993,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "s",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFA9PV5_ornament",
+      "name": "东铁营桥",
+      "center": [
+        1436.6327490723731,
+        3450.297856162628
+      ],
+      "radius": 300.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.017866099999992002,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "half_eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFA9PT6_ornament",
+      "name": "右安门桥",
+      "center": [
+        -2038.957178277163,
+        2711.1232439150567
+      ],
+      "radius": 300.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.0128121000000192,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "half_eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAA98H_ornament",
+      "name": "朝阳门桥",
+      "center": [
+        1584.7650304083754,
+        -918.0464002290928
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.01825979999989613,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "half_eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAA6ZZ_ornament",
+      "name": "朝阳公园桥",
+      "center": [
+        4429.907422435193,
+        -1537.1024140476686
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 2,
+      "seconds": 0.02269099999989521,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAAIVQ_ornament",
+      "name": "潘家园桥",
+      "center": [
+        2938.6711790052764,
+        2301.5764871212073
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 2,
+      "seconds": 0.024855599999909828,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAAIZ7_ornament",
+      "name": "南坞桥",
+      "center": [
+        -6552.496387713692,
+        -3559.7020206973643
+      ],
+      "radius": 300.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.014609599999857892,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "half_eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAA71U_ornament",
+      "name": "闵西桥",
+      "center": [
+        -9377.99095337531,
+        -4273.856371136619
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.02217150000001311,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "half_eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAA7NU_ornament",
+      "name": "林萃东桥",
+      "center": [
+        -1359.3676523434415,
+        -7502.419475475743
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.020648299999947994,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "half_eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAA83F_ornament",
+      "name": "功德寺桥",
+      "center": [
+        -7538.131825109311,
+        -6230.973958516859
+      ],
+      "radius": 300.0,
+      "complexity": "plain",
+      "rampCount": 2,
+      "seconds": 0.016644399999904635,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAA846_ornament",
+      "name": "仰山桥",
+      "center": [
+        241.31285580004652,
+        -7462.882407797568
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 2,
+      "seconds": 0.02432949999979428,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAA9QS_ornament",
+      "name": "环铁桥",
+      "center": [
+        5858.897301293591,
+        -4563.776099456909
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.01864320000004227,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "half_eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAA9QZ_ornament",
+      "name": "七棵树桥",
+      "center": [
+        6461.818020150651,
+        -3198.3567617802673
+      ],
+      "radius": 300.0,
+      "complexity": "plain",
+      "rampCount": 2,
+      "seconds": 0.021647099999881902,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAA9RO_ornament",
+      "name": "狼垡东桥",
+      "center": [
+        -5587.097366450577,
+        8791.451209954019
+      ],
+      "radius": 300.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.019567399999914414,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "half_eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAA9S0_ornament",
+      "name": "同华桥",
+      "center": [
+        -2228.537783849596,
+        8802.684059011168
+      ],
+      "radius": 300.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.015752200000179073,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "half_eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAAAZT_ornament",
+      "name": "李营桥",
+      "center": [
+        -4420.614281126401,
+        8579.514275209176
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.018552100000079008,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "half_eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAACWR_ornament",
+      "name": "杏石口桥",
+      "center": [
+        -9560.574223846937,
+        -3078.8612658884085
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.023803999999927328,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "s",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAADJ9_ornament",
+      "name": "亦庄桥",
+      "center": [
+        3652.87414723517,
+        6977.332325429715
+      ],
+      "radius": 300.0,
+      "complexity": "plain",
+      "rampCount": 2,
+      "seconds": 0.020240199999989272,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAAF5D_ornament",
+      "name": "园博园桥",
+      "center": [
+        -9722.318266216325,
+        2914.483349890798
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.017195299999912095,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "half_eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAAJAD_ornament",
+      "name": "志远西桥",
+      "center": [
+        -168.12350754326417,
+        9849.868004835464
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.02376470000012887,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "half_eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAAJHT_ornament",
+      "name": "康化桥",
+      "center": [
+        6268.537874589757,
+        5187.593047590364
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.02057120000017676,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "half_eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFIL61FU_ornament",
+      "name": "西毓顺桥",
+      "center": [
+        996.6803369051801,
+        8985.035535518373
+      ],
+      "radius": 300.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.01872769999999946,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "half_eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAA7JJ_ornament",
+      "name": "安华桥",
+      "center": [
+        -444.9210606874733,
+        -3891.9305427742306
+      ],
+      "radius": 300.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.019372900000007576,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "s",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAA88Z_ornament",
+      "name": "惠新东桥",
+      "center": [
+        1013.2883570039119,
+        -5225.7908752834255
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.020088299999997616,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "half_eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFF9K9W8_ornament",
+      "name": "公益西桥",
+      "center": [
+        -1791.0508690718486,
+        5239.32969065958
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.021304899999904592,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "half_eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAABHX_ornament",
+      "name": "北辰桥",
+      "center": [
+        -453.85612976441735,
+        -5180.80257249591
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 2,
+      "seconds": 0.022629100000131075,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAABIX_ornament",
+      "name": "钟楼北桥",
+      "center": [
+        -269.3979850822537,
+        -2580.2176106042575
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.017849300000079893,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "half_eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAA6G7_ornament",
+      "name": "肖村桥",
+      "center": [
+        2217.441638106672,
+        5201.151252942581
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.022093300000051386,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "s",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAA6GC_ornament",
+      "name": "花乡桥",
+      "center": [
+        -4684.602214130158,
+        5256.968152556398
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 2,
+      "seconds": 0.0244466999999986,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAA87K_ornament",
+      "name": "和平西桥",
+      "center": [
+        701.9955159925837,
+        -3922.2736408069345
+      ],
+      "radius": 300.0,
+      "complexity": "plain",
+      "rampCount": 2,
+      "seconds": 0.017797699999846373,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAABJM_ornament",
+      "name": "望京桥",
+      "center": [
+        2660.754290452078,
+        -4683.849484909139
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.021340900000041074,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "s",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0FFFAAIZB_ornament",
+      "name": "四季青桥",
+      "center": [
+        -6581.019263900508,
+        -2483.1040688275157
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 2,
+      "seconds": 0.021775899999965986,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "eye",
+      "replaceMainline": false
+    },
+    {
+      "id": "B0IBZR4W8C_ornament",
+      "name": "中关村一桥",
+      "center": [
+        -4435.704523046109,
+        -5044.818165736633
+      ],
+      "radius": 400.0,
+      "complexity": "plain",
+      "rampCount": 1,
+      "seconds": 0.021257599999898957,
+      "sourceRampCount": 0,
+      "transformedRampCount": 0,
+      "ornamentType": "half_eye",
+      "replaceMainline": false
+    }
+  ],
+  "graph": "graph.json",
+  "input": "F:\\大四秋\\城市漂流\\public\\data\\beijing\\rounds\\r3\\graph.json",
+  "inputSHA256": "9a5d2adc671947c387f1aa64c9b3c02ce76ac4a2634553854ddc3d747ef227d7",
+  "inputManifestSHA256": "c590f92d35dfd6dba05ffe9352d5a1fc22cce3566d5988147241812c2aa36326",
+  "status": "centerlines_pass_with_review_items",
+  "stopped": null,
+  "battery": {
+    "ac": 1,
+    "percent": 100,
+    "seconds": 4294967295,
+    "low": false
+  },
+  "seconds": 207.6271658,
+  "graphSHA256": "d77c814733050ecc1f486dbea5bf755ad82139d1e5865cb17e755d0966a3da60",
+  "sourcePOICount": 269,
+  "generationSeconds": 207.6271658,
+  "compactSeconds": 122.1483080999999,
+  "integrationSeconds": 5.669074099999989,
+  "validation": "../../../debug/beijing/interchange_5ring/validation.json",
+  "coverageAudit": "../../../debug/beijing/interchange_5ring/poi-coverage-audit.json",
+  "gapAudit": "../../../debug/beijing/interchange_5ring/ring-gap-audit.json",
+  "frozenAt": "2026-11-16T09:42:17.734112+08:00"
+}

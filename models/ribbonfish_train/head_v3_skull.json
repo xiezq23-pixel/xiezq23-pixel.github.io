@@ -1,0 +1,63 @@
+{
+  "taskId": 8194868,
+  "file": "head_v3_skull.glb",
+  "sourceFile": "assets/lux3d/ribbonfish_train/ribbonfish_skull_upper_v3_8194868_0.glb",
+  "sourceSha256": "42badd84a958004807e21aabc5d3f80a5f4e5ae8e4928a4f919384aae99d38e6",
+  "sha256": "6470105e835cacdaae8a7c6fb5ac94945a989f4520d609ac25334bf2fa35eb4c",
+  "sourceVertices": 15846,
+  "sourceTriangles": 31892,
+  "retainedTriangles": 31892,
+  "addedTriangles": 0,
+  "removedTriangles": 0,
+  "indexOrderPreserved": true,
+  "fit": {
+    "method": "anatomical near-rigid fit; preserved original topology; bounded 0.9–1 cross scale",
+    "scale": 63.88888635017264,
+    "crossScale": 0.95,
+    "pitch": -0.10000000000000003,
+    "noseAnchor": [
+      87.5,
+      -1.8655883309158257,
+      0
+    ],
+    "sourceNose": [
+      0.09000000357627869,
+      -0.01562485946342349,
+      0.00013872113122488373
+    ],
+    "attempted": 6904,
+    "oldRoute": {
+      "gap": -0.21049166178336648,
+      "worst": {
+        "t": 0.5125,
+        "off": 0,
+        "r": 0.6,
+        "point": [
+          83.11096243867048,
+          -1.6244241659238963,
+          0
+        ]
+      }
+    },
+    "posteriorWidthRecovery": {
+      "factor": 1.06,
+      "constantBeforeX": 78,
+      "smoothFadeEndX": 79.5,
+      "method": "smooth bounded posterior-source bend, no projection/remeshing",
+      "wallMargin": 0.055419635597597106
+    }
+  },
+  "bounds": {
+    "isBox3": true,
+    "min": {
+      "x": 76.14374542236328,
+      "y": -2.0622127056121826,
+      "z": -1.8323060274124146
+    },
+    "max": {
+      "x": 87.49739074707031,
+      "y": 2.0034191608428955,
+      "z": 1.8146915435791016
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "taskId": 8228686,
+  "sourceTaskId": 8226703,
+  "urdf": "assets/lux3d/lg_b/lg_b_ginkgo_conical_artic/extracted/urdf/robot.urdf",
+  "faces": 62108,
+  "matched": 4619,
+  "missing": 0,
+  "maxSourceDistance": 9.587521235311776e-7,
+  "sourceToUrdf": [
+    0,
+    6,
+    0
+  ],
+  "fullJointAndVisualMatricesApplied": true,
+  "joints": [
+    {
+      "name": "branch_top_joint",
+      "pivot": [
+        0.028518852709559835,
+        6.5537,
+        0.21111751966592757
+      ],
+      "axis": [
+        -0.6094360798885432,
+        0.0602040078919031,
+        -0.7905461036295334
+      ],
+      "period": 6.5,
+      "maxAngleRadians": 0.017453292519943295
+    },
+    {
+      "name": "branch_left_joint",
+      "pivot": [
+        0.3393188527095598,
+        4.9905,
+        -0.27408248033407245
+      ],
+      "axis": [
+        -0.06939701189433659,
+        0.9975601709773391,
+        -0.007600001302606136
+      ],
+      "period": 5.8,
+      "maxAngleRadians": 0.017453292519943295
+    },
+    {
+      "name": "branch_right_joint",
+      "pivot": [
+        -0.4036811472904402,
+        4.5528,
+        0.23231751966592756
+      ],
+      "axis": [
+        -0.10619898352460957,
+        -0.9444918534743788,
+        -0.31089695176838333
+      ],
+      "period": 6.9,
+      "maxAngleRadians": 0.017453292519943295
+    }
+  ],
+  "apiLimitRadians": 0.523599,
+  "runtimeLimitRadians": 0.017453292519943295,
+  "sharedBoundaryVerticesFixed": true
+}

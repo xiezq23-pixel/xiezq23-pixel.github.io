@@ -1,0 +1,213 @@
+{
+  "version": 1,
+  "medium": "black-and-white woodcut illustration",
+  "source": "12 original built-in image_gen outputs; prompts in assets/art/cabin_tv_prints_20261118/generation.json",
+  "processing": "grayscale, center-fit to 512x480, WebP quality84; original PNGs preserved",
+  "playback": "random single frame on each power-on; no slideshow",
+  "images": [
+    {
+      "id": "01",
+      "title": "无水之桥",
+      "url": "/tex/cabin_tv/prints/01.webp",
+      "size": [
+        512,
+        480
+      ],
+      "bytes": 60638,
+      "sourceSize": [
+        1295,
+        1214
+      ],
+      "original": "assets/art/cabin_tv_prints_20261118/01-original.png",
+      "sha256": "168e92093f3ff1da86f40d446afb903fbe6597ad3f5b09ea8cd3f21a95b4cd5a",
+      "sourceSha256": "9eb1ad548b184c8bd142c8b44677e948decba1b7617a07acafa656d19a965f6d"
+    },
+    {
+      "id": "02",
+      "title": "一滴水的旅行",
+      "url": "/tex/cabin_tv/prints/02.webp",
+      "size": [
+        512,
+        480
+      ],
+      "bytes": 40938,
+      "sourceSize": [
+        1295,
+        1214
+      ],
+      "original": "assets/art/cabin_tv_prints_20261118/02-original.png",
+      "sha256": "125234a1ca539858ee635dd603b06b4c3ae2601d4ec32ae5bace333b5d05a3a4",
+      "sourceSha256": "329407371157e1c89760f3e15f1f0472950aa5601dd736d672c4c9eae36467b4"
+    },
+    {
+      "id": "03",
+      "title": "鲸鱼末班车",
+      "url": "/tex/cabin_tv/prints/03.webp",
+      "size": [
+        512,
+        480
+      ],
+      "bytes": 46980,
+      "sourceSize": [
+        1295,
+        1214
+      ],
+      "original": "assets/art/cabin_tv_prints_20261118/03-original.png",
+      "sha256": "ec3ba2d1f7a1173c9d2c9678e3ffe96765eb5dd18ef38a88619e4c2ca3e041cc",
+      "sourceSha256": "57e1cf7b0b4a17ae9be1188ec7acee40fdde3988b40f7170dfc18948fc986753"
+    },
+    {
+      "id": "04",
+      "title": "带鱼夜行",
+      "url": "/tex/cabin_tv/prints/04.webp",
+      "size": [
+        512,
+        480
+      ],
+      "bytes": 52948,
+      "sourceSize": [
+        1295,
+        1214
+      ],
+      "original": "assets/art/cabin_tv_prints_20261118/04-original.png",
+      "sha256": "63b475deb3d92577ea14a2e542be726149c29f86cceaf12c0e00cb627bb4fdb2",
+      "sourceSha256": "b641efad68e5d9dac6a6a8b4523adb24aaac8e829a70192878ef6e4ade0b2b83"
+    },
+    {
+      "id": "05",
+      "title": "桥下喘息",
+      "url": "/tex/cabin_tv/prints/05.webp",
+      "size": [
+        512,
+        480
+      ],
+      "bytes": 51042,
+      "sourceSize": [
+        1295,
+        1214
+      ],
+      "original": "assets/art/cabin_tv_prints_20261118/05-original.png",
+      "sha256": "e5aa0ee97a7617873f7f18069fd8425cada2ee221403978a6964c33b21d3eb58",
+      "sourceSha256": "f5b4e0a02d4df72037ff59f1b712f38c9abb437d6df00f5db5ed89abc55757d8"
+    },
+    {
+      "id": "06",
+      "title": "银杏之河",
+      "url": "/tex/cabin_tv/prints/06.webp",
+      "size": [
+        512,
+        480
+      ],
+      "bytes": 64024,
+      "sourceSize": [
+        1295,
+        1214
+      ],
+      "original": "assets/art/cabin_tv_prints_20261118/06-original.png",
+      "sha256": "246cddb90f27a60cc28ae3333d5f0af4c89d315169acc25fcdc6f816ec6d01eb",
+      "sourceSha256": "04dee4aac8ac8a31a168e931b6b8a9b4392d3c12ac78ae3a870ccf957936175c"
+    },
+    {
+      "id": "07",
+      "title": "花瓣来信",
+      "url": "/tex/cabin_tv/prints/07.webp",
+      "size": [
+        512,
+        480
+      ],
+      "bytes": 60056,
+      "sourceSize": [
+        1295,
+        1214
+      ],
+      "original": "assets/art/cabin_tv_prints_20261118/07-original.png",
+      "sha256": "ead8a424799af8026a1b752cc3c1bd84dce3f8836ba0c869e83c9dfd3bce2dfd",
+      "sourceSha256": "b263008e9d2d72b7488e30ec4ec99462ebb491d16a794135ce2bfc2701c438d8"
+    },
+    {
+      "id": "08",
+      "title": "光雨",
+      "url": "/tex/cabin_tv/prints/08.webp",
+      "size": [
+        512,
+        480
+      ],
+      "bytes": 71348,
+      "sourceSize": [
+        1295,
+        1214
+      ],
+      "original": "assets/art/cabin_tv_prints_20261118/08-original.png",
+      "sha256": "a3c65d06ec4bf71f5285426103de95e13c9c3ed041fe32954eda28f649d694a2",
+      "sourceSha256": "6f88c36992b9e99222e7d48ecdf1e4940fce82326c752e1223f4fe39b1c52789"
+    },
+    {
+      "id": "09",
+      "title": "远方",
+      "url": "/tex/cabin_tv/prints/09.webp",
+      "size": [
+        512,
+        480
+      ],
+      "bytes": 40608,
+      "sourceSize": [
+        1295,
+        1214
+      ],
+      "original": "assets/art/cabin_tv_prints_20261118/09-original.png",
+      "sha256": "18f602ce4971f918ba35c0e52a1143d37b878c8e2f4f85c6409f93d3d50e6344",
+      "sourceSha256": "4f867baa93693fa1c88639fe391fedec2316a4f899bfaf9ede4c39be45f72b98"
+    },
+    {
+      "id": "10",
+      "title": "云上",
+      "url": "/tex/cabin_tv/prints/10.webp",
+      "size": [
+        512,
+        480
+      ],
+      "bytes": 57914,
+      "sourceSize": [
+        1295,
+        1214
+      ],
+      "original": "assets/art/cabin_tv_prints_20261118/10-original.png",
+      "sha256": "08e520210de026c6fdba01e2210a048552584a2957801bf9e580d1ee80db8372",
+      "sourceSha256": "52ed49eac8b5ea62d4252cd7d05b16f9c912653d290fd62c365f5e8cfd99476d"
+    },
+    {
+      "id": "11",
+      "title": "回环",
+      "url": "/tex/cabin_tv/prints/11.webp",
+      "size": [
+        512,
+        480
+      ],
+      "bytes": 49302,
+      "sourceSize": [
+        1295,
+        1214
+      ],
+      "original": "assets/art/cabin_tv_prints_20261118/11-original.png",
+      "sha256": "ada66f13016c0c96c928913dfbedb567ab6f28109e6ae1bf989dddb8d251c6ee",
+      "sourceSha256": "1c16d15bea780e7ce44eb8e0d7a30d20fd1a40f8ab8e803003cd94b08a781b21"
+    },
+    {
+      "id": "12",
+      "title": "空车厢",
+      "url": "/tex/cabin_tv/prints/12.webp",
+      "size": [
+        512,
+        480
+      ],
+      "bytes": 70658,
+      "sourceSize": [
+        1295,
+        1214
+      ],
+      "original": "assets/art/cabin_tv_prints_20261118/12-original.png",
+      "sha256": "ae8b19b6194f27a2ff60e7b04790c7c7932e702e1ee2145106c25184c7bb362e",
+      "sourceSha256": "5b92ec47aff06021567652a96962530387c1ddf5e794e642bba1510aa2fd146b"
+    }
+  ]
+}

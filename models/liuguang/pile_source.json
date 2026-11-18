@@ -1,0 +1,47 @@
+{
+  "id": "pile",
+  "taskId": 8228694,
+  "raw": "assets/lux3d/lg_b/lg_b_ginkgo_pile_material/material_8228694_1.glb",
+  "rawSha256": "d2b9032d0015bf6ad00f77c7db3a4fc63a70f64bfcb6048dd20e0cd80e935df1",
+  "sourceTriangles": 27384,
+  "sourceVertices": 38644,
+  "transform": {
+    "origin": [
+      0,
+      -0.07130592316389084,
+      0
+    ],
+    "uniformScale": 2.428571469929754,
+    "heightScale": 0.3464772747618463,
+    "curvatureScale": 1,
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ]
+  },
+  "lod": {
+    "requestedTriangles": 2500,
+    "triangles": 2478,
+    "vertices": 948,
+    "meshoptRelativeError": 0.010457098484039307,
+    "targetReached": true,
+    "sourceVerticesPreserved": true
+  },
+  "atlasUV": null,
+  "bytes": 50032,
+  "sha256": "8ede0d1c51e3c1f723fc69927766cbd59ab8df3064b42b97831cb057ffca8367",
+  "bounds": {
+    "min": [
+      -0.3649786114692688,
+      0,
+      -0.38841310143470764
+    ],
+    "max": [
+      0.42500001192092896,
+      0.12000000476837158,
+      0.367436021566391
+    ]
+  },
+  "review": "候选，需原模与LOD视觉确认，不因请求40面就宣称实际40面"
+}

@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-18T10:40:07.903Z",
+  "source": "Three separately generated genuine Lux3D models; no procedural replacement mesh",
+  "coordinateConvention": "Y up; platform long axis X; open/front face +Z; bottom Y=0",
+  "actualCredits": null,
+  "parts": {
+    "platform": {
+      "taskId": 8304814,
+      "referenceTaskId": 8304600,
+      "original": "assets/lux3d/transit_station_platform_v2/model_8304814.glb",
+      "originalSha256": "9a3768af3534fe0713c59f9ccb102483f2ddd7dbc687d771f711459156364ce3",
+      "file": "public/models/transit_station/platform.glb",
+      "sha256": "01f17e984a57ae3af5172ddeeb4de9cf010255cdd1859388a660f98e039f5702",
+      "bytes": 1469996,
+      "triangles": 20244,
+      "bounds": {
+        "min": [
+          -5,
+          0,
+          -1.5540642738342285
+        ],
+        "max": [
+          5,
+          4,
+          1.5540642738342285
+        ],
+        "size": [
+          10,
+          4,
+          3.108128547668457
+        ]
+      }
+    },
+    "bench": {
+      "taskId": 8304563,
+      "referenceTaskId": 8304435,
+      "original": "assets/lux3d/transit_station_bench/model_8304563.glb",
+      "originalSha256": "2a337a2ed2b0d127c89e46e2d17a7d3d2eb536191952b85ad4a5fc86b8713e39",
+      "file": "public/models/transit_station/bench.glb",
+      "sha256": "599dafd46756e69b3899fd3122124a76d7be607c1eef3eb7e4b197f94eda9484",
+      "bytes": 476896,
+      "triangles": 8000,
+      "bounds": {
+        "min": [
+          -1.1749999523162842,
+          0,
+          -0.43836677074432373
+        ],
+        "max": [
+          1.1749999523162842,
+          1.0729482173919678,
+          0.43836677074432373
+        ],
+        "size": [
+          2.3499999046325684,
+          1.0729482173919678,
+          0.8767335414886475
+        ]
+      }
+    },
+    "lamp": {
+      "taskId": 8304570,
+      "referenceTaskId": 8304440,
+      "original": "assets/lux3d/transit_station_lamp/model_8304570.glb",
+      "originalSha256": "cee92265b7dc0937cc8b17cf0407392a14ede8e292a7b57fde9167473dd27186",
+      "file": "public/models/transit_station/lamp.glb",
+      "sha256": "25216c5d2bed5dd712e7a73e10b6220a0c7f7e65b568693758d4107164ff33aa",
+      "bytes": 257388,
+      "triangles": 5000,
+      "bounds": {
+        "min": [
+          -0.41408032178878784,
+          0,
+          -0.19605502486228943
+        ],
+        "max": [
+          0.4300677478313446,
+          3.799999952316284,
+          0.8542110919952393
+        ],
+        "size": [
+          0.8441480696201324,
+          3.799999952316284,
+          1.0502661168575287
+        ]
+      }
+    }
+  },
+  "assembly": {
+    "platform": {
+      "position": [
+        0,
+        0,
+        0
+      ]
+    },
+    "bench": {
+      "position": [
+        2.6,
+        0.51,
+        -0.05
+      ]
+    },
+    "lamp": {
+      "position": [
+        5.65,
+        0,
+        0.2
+      ]
+    }
+  },
+  "lightPosition": [
+    5.65,
+    3.48,
+    0.7
+  ],
+  "poster": {
+    "material": "station_poster",
+    "method": "Clip and regroup existing front board triangles; planar UV on exact original surface; no new plane",
+    "sourceRect": {
+      "xmin": -3.9,
+      "xmax": 1.4,
+      "ymin": 1.55,
+      "ymax": 4.35
+    },
+    "frontNormal": "+Z",
+    "uvTopV": 0,
+    "sourceFacesTouched": 163,
+    "size": [
+      5.3,
+      2.0775538042782666
+    ]
+  },
+  "notes": [
+    "Initial sketch edit 8304433 retained as unused line-drawing direction; corrected reference 8304600 used for actual platform.",
+    "BaseColor textures retained/resized 1024; metallic-roughness and normal texture removed for matte illustrated material.",
+    "Original-model inspection completed by parent in GPU viewer for all three GLBs.",
+    "Actual fees not verified."
+  ]
+}

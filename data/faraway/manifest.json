@@ -1,0 +1,172 @@
+{
+  "version": 2,
+  "title": "远方",
+  "coordinateSystem": "Y up, local -Z forward; Lux source geometry, no procedural ground",
+  "assets": {
+    "terrain": [
+      {
+        "url": "/models/faraway_sand.glb",
+        "transform": {
+          "position": [
+            0,
+            0.030750728963231846,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        }
+      },
+      {
+        "url": "/models/faraway_mountains.glb",
+        "transform": {
+          "position": [
+            0,
+            -2,
+            -280
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 950
+        }
+      }
+    ],
+    "kelp": {
+      "url": "/models/faraway_kelp.glb",
+      "widthScale": 0.48,
+      "heightMeters": 3.2,
+      "placements": [
+        [
+          -12,
+          -7,
+          5.8,
+          0.3
+        ],
+        [
+          17,
+          -12,
+          7.6,
+          1.1
+        ],
+        [
+          -25,
+          -28,
+          4.2,
+          2.2
+        ],
+        [
+          12,
+          -38,
+          5.5,
+          0.8
+        ],
+        [
+          -10,
+          -55,
+          4.3,
+          1.7
+        ],
+        [
+          27,
+          -64,
+          5.5,
+          2.8
+        ],
+        [
+          -31,
+          -78,
+          6.2,
+          1
+        ],
+        [
+          18,
+          -91,
+          4.6,
+          2
+        ],
+        [
+          -20,
+          -117,
+          5.1,
+          0.5
+        ],
+        [
+          34,
+          -132,
+          3.8,
+          1.8
+        ],
+        [
+          -43,
+          -150,
+          6,
+          2.2
+        ],
+        [
+          11,
+          -162,
+          4.5,
+          0.2
+        ],
+        [
+          51,
+          -180,
+          5.2,
+          0.9
+        ],
+        [
+          -34,
+          -194,
+          3.6,
+          2.7
+        ]
+      ],
+      "placement": {
+        "count": 14,
+        "corridorHalfWidth": 6,
+        "maxRise": 40
+      },
+      "tint": 11581098
+    }
+  },
+  "terrainTint": 14408158,
+  "atmosphere": {
+    "stars": 24,
+    "dust": 25
+  },
+  "provenance": {
+    "terrain": {
+      "taskId": 8163752,
+      "referenceTaskId": 8163012,
+      "raw": "assets/lux3d/faraway_terrain/img3d_8163752.glb",
+      "rawSha256": "53c570b59ca64c351531702b4375ab84448f4ea121a25d16b53afe528f31b117",
+      "lodSha256": "c68d56032170cdca6c0787dee9143af094e6e49a34caea6452b1eb07b3374403",
+      "rawTriangles": 60946,
+      "runtimeTriangles": 30965,
+      "assemblyReport": "artifacts/faraway/landscape-prepared.json",
+      "sandSha256": "fe93003bd1170a5d72a3c2703563a6ad0b859651af089b1859d42105c5511015",
+      "mountainsSha256": "d542cdaab41d2e4671e2eb21491a0666da865955be82c072b0ce1a62454720b1",
+      "processing": "Retained Lux triangle subsets; affine orientation/scale corrections. No added terrain triangles.",
+      "v2RejectedTaskId": 8167062
+    },
+    "kelp": {
+      "taskId": 8163323,
+      "referenceTaskId": 8162234
+    },
+    "flyingfish": {
+      "taskId": 8163172,
+      "splitTaskId": 8164032,
+      "articulationTaskId": 8164286
+    },
+    "concept": {
+      "file": "docs/art_ref/faraway_concept_v1.png",
+      "tool": "imagegen artistic direction only"
+    }
+  }
+}

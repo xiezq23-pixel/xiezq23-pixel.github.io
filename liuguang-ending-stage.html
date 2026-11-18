@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>流光 · 结局审阅</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden}body{background:#b9a2ab;color:#f1e7e1;font:12px/1.5 system-ui,sans-serif}canvas{position:fixed;inset:0;width:100%;height:100%;display:block}button,input{font:inherit;color:inherit}button{border:1px solid #f5e7dc40;border-radius:5px;background:#f5e7dc12;padding:6px 8px;cursor:pointer}button:disabled{opacity:.4;cursor:default}button:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid #ead4ba;outline-offset:2px}#panel{position:fixed;right:12px;top:12px;width:min(272px,calc(100vw - 24px));max-height:calc(100vh - 24px);overflow:auto;z-index:5;padding:12px;background:#453a41cf;backdrop-filter:blur(12px);border:1px solid #f5e7dc25;border-radius:9px}header{display:flex;justify-content:space-between;align-items:center;gap:8px}h1{font-size:16px;font-weight:500;margin:0}.muted{opacity:.7;font-size:11px}.actions{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}label{display:block;margin:8px 0}input[type=range]{display:block;width:100%;accent-color:#d9b6a7;margin:7px 0}.toggles{display:flex;gap:9px;flex-wrap:wrap}.toggles label{margin:4px 0;white-space:nowrap}input[type=checkbox]{accent-color:#d9b6a7}details{border-top:1px solid #f5e7dc25;padding-top:9px;margin-top:10px}summary{cursor:pointer}pre{font:10px/1.45 ui-monospace,monospace;white-space:pre-wrap;overflow-wrap:anywhere;max-height:220px;overflow:auto;margin-bottom:0}#showPanel{position:fixed;right:12px;top:12px;z-index:6;background:#453a41d9}#status{position:fixed;bottom:12px;left:12px;max-width:calc(100vw - 24px);padding:5px 9px;background:#453a4199;border-radius:5px;z-index:4;pointer-events:none}#qaFrame{position:fixed;inset:0;width:100%;height:100%;border:0;background:#19191c;z-index:3}#qaResult{max-height:260px}#saveResult{font-size:11px;overflow-wrap:anywhere}body.clean #panel,body.clean #status{display:none}#panel[hidden],#showPanel[hidden],#qaFrame[hidden]{display:none}
+</style>
+  <script type="module" crossorigin src="/assets/liuguangEnding-B8nCjRJz.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="modulepreload" crossorigin href="/assets/three.module-BbQ0mWiG.js">
+  <link rel="modulepreload" crossorigin href="/assets/GLTFLoader-PiM1tl0c.js">
+  <link rel="modulepreload" crossorigin href="/assets/MeshBVH-D4AFORhI.js">
+  <link rel="modulepreload" crossorigin href="/assets/fishrig-D6C-z1WQ.js">
+  <link rel="modulepreload" crossorigin href="/assets/traffic_rules-CAsUsvo6.js">
+  <link rel="modulepreload" crossorigin href="/assets/hero-CcYHNWcj.js">
+  <link rel="modulepreload" crossorigin href="/assets/shore_resources-BmbsQC5k.js">
+  <link rel="modulepreload" crossorigin href="/assets/track-BzZQoQRZ.js">
+  <link rel="modulepreload" crossorigin href="/assets/junction-BQH3hvOm.js">
+  <link rel="modulepreload" crossorigin href="/assets/decks-Bqhas8Oz.js">
+  <link rel="modulepreload" crossorigin href="/assets/ending_scene-B1JA5Rrz.js">
+</head>
+<body>
+<aside id="panel">
+ <header><h1>流光 · 结局审阅</h1><button id="hidePanel" title="H 键隐藏面板">隐藏</button></header>
+ <div class="muted">固定构图 · 原主角与真实 Lux 场景</div>
+ <div class="actions"><button id="play">播放</button><button id="save" disabled>保存画面</button></div>
+ <label for="time">时间 <output id="timeValue">18.0</output> 秒<input id="time" type="range" min="0" max="60" step=".1" value="18"></label>
+ <div class="toggles"><label><input id="bridges" type="checkbox" checked disabled>高架</label><label><input id="trees" type="checkbox" checked disabled>银杏</label><label><input id="streams" type="checkbox" checked disabled>光流</label></div>
+ <div id="saveResult" role="status"></div>
+ <details open><summary>完整结局</summary>
+  <p class="muted">在正式游戏中正常播放至结局卡，约 32 秒演出另加加载时间。期间暂停本页渲染。</p>
+  <div class="actions"><button id="check">检查完整结局</button><button id="cancelCheck" disabled>取消</button><button id="closeCheck" hidden>返回审阅</button></div>
+  <pre id="qaResult">尚未运行</pre>
+ </details>
+ <details><summary>运行报告</summary><pre id="report"></pre></details>
+</aside>
+<button id="showPanel" hidden title="H 键显示面板">显示面板 · H</button>
+<div id="status" role="status">正在载入流光场景…</div>
+</body>
+</html>

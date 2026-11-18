@@ -1,0 +1,32 @@
+{
+ "source": "assets/lux3d/lg_park/letterbox_artic_8298478/urdf",
+ "scale": 4.44444,
+ "translate": [
+  -0.0014,
+  0,
+  0.0267
+ ],
+ "joints": [
+  {
+   "name": "lid_joint",
+   "type": "revolute",
+   "parent": "base",
+   "child": "lid",
+   "pivot": [
+    -0.1101,
+    1.9699,
+    -0.2291
+   ],
+   "axis": [
+    -0.99922,
+    -0.02533,
+    -0.03013
+   ],
+   "limit": [
+    0,
+    1.570796
+   ],
+   "restAngle": 0
+  }
+ ]
+}

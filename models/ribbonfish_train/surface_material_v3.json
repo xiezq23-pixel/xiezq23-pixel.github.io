@@ -1,0 +1,23 @@
+{
+  "version": 3,
+  "taskId": 8195463,
+  "sourceTasks": [
+    8151772,
+    8159964
+  ],
+  "method": "Lux fixed-geometry material transfer; exact-position triangle matching restores original Lux semantic labels, with vertex duplication only at UV/semantic boundaries",
+  "raw": "assets/lux3d/ribbonfish_train/ribbonfish_skin_material_v3_8195463_1.glb",
+  "rawSha256": "b56f7d17347aa978d54d87c12276413d6b2e4c746208eb0f6f08660badcb1f10",
+  "source": "public/models/ribbonfish_train/source_semantic.glb",
+  "sourceSha256": "754483d6f259f1e0ca4ab8b7d45bba92753f6b93016378477627a9f30c798beb",
+  "file": "source_material_v3.glb",
+  "sha256": "8b924e0c56a2e1dd4586da12d47aebf073bd15530625fc8f036cdd8f63e5f2c2",
+  "sourceTriangles": 58486,
+  "matchedTriangles": 58486,
+  "missingTriangles": 0,
+  "vertices": 36164,
+  "geometryChanged": false,
+  "matchingPrecisionMeters": 0.00001,
+  "textures": 3,
+  "reference": "docs/art_ref/ribbonfish/body_model_guide_v2.png"
+}

@@ -1,0 +1,47 @@
+{
+  "kind": "global_trajectory_graph_not_tile_manifest",
+  "version": "interchange-3d-v1",
+  "status": "CENTERLINE_CHECKS_PASS",
+  "productionReady": false,
+  "graph": "graph.json",
+  "ports": "ports.json",
+  "interchanges": [
+    "复兴门桥",
+    "建国门桥"
+  ],
+  "origin": {
+    "crs": "EPSG:32650",
+    "utm": [
+      448499.70759287867,
+      4417810.9453140665
+    ]
+  },
+  "scale": 0.6,
+  "coordinates": "[x,h,z], east/up/south, game units",
+  "ringHeight": 18,
+  "groundHeight": 0,
+  "ringClosed": true,
+  "groundRampAttachmentsToClass3": 0,
+  "validation": "/debug/beijing/interchange_3d_v1/validation.json",
+  "preview": "/debug/beijing/interchange_3d_v1/index.html",
+  "inputSHA256": "e06b526de5e91acda78e493196ad5072ba06274b0fe49db39c773213415e19c3",
+  "files": {
+    "graph.json": "8dbc9e812423f5a6b8e6950d45c56b69ddfd06a331acb2d8e810d51fceb748d1",
+    "input-graph.json": "e06b526de5e91acda78e493196ad5072ba06274b0fe49db39c773213415e19c3",
+    "ports.json": "4c23c1595d191b1c5ab1c9b8a1c521166f055a07bb646788da55aae024b2cf73",
+    "second-ring-trajectories.obj": "b42a1fff699b9b84b848ce8cf65927e66cd8543b21ab10769d6898e5326f4272",
+    "复兴门桥.json": "a53862c1ddf36becad290a902b1a42258ea01d97827d42f4aaf3fb5422b59df5",
+    "复兴门桥-local.obj": "e5916a9fd904e7e903ad8d2b173b681ed463facca78ea9588e4067e73a8c3327",
+    "建国门桥.json": "f65a0ce32663c87285cb30751156b02abf182db9df822d071ccc08d1c2f1321c",
+    "建国门桥-local.obj": "0730f84b4e8196f2091e2dafe3f432e306745bf253f25aed1c19f1fb9214c056"
+  },
+  "minimumSampledPlanarRadius": {
+    "复兴门桥": 3.48,
+    "建国门桥": 5.933
+  },
+  "limitations": [
+    "Centerlines only; no bridge deck width or pier validation.",
+    "Very tight source loops need radius/speed review before gameplay.",
+    "Local OBJ uses bridge center as origin; global OBJ and graph use Tiananmen origin."
+  ]
+}

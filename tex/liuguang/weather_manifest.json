@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-17T13:59:47.824442+00:00",
+  "textures": {
+    "cloud_haze": {
+      "file": "/tex/liuguang/cloud_haze.png",
+      "taskId": 8236617,
+      "source": {
+        "file": "assets/lux3d/lg_weather_mist_density/original_8236617.jpg",
+        "sha256": "763265e144b1ada64ca4180da7c2501219bbf3a8665b14d5a811e5cbb1e982d4",
+        "taskId": 8236617
+      },
+      "sha256": "f0e2ff86b5fb87eb5e2788b4bbeb29c39b8cee3b1a8a0dcf773ac0c82794ba20",
+      "bytes": 94090,
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "colorSpace": "NoColorSpace",
+      "wrap": "ClampToEdgeWrapping",
+      "channels": {
+        "RGB": "white for shader tint",
+        "A": "genuine Lux source luminance"
+      },
+      "processing": {
+        "operations": [
+          "source luminance",
+          "black subtraction",
+          "range normalization",
+          "Lanczos resize to 512 square",
+          "24px outer-frame feather"
+        ],
+        "blackLevel": 0.0,
+        "normalizationHigh": 0.648823618888855,
+        "proceduralNoise": false
+      },
+      "orientation": "Centered light mist sprite; default flipY may remain true.",
+      "viewedOriginal": true
+    },
+    "rain_drop": {
+      "file": "/tex/liuguang/rain_drop.png",
+      "taskId": 8236621,
+      "source": {
+        "file": "assets/lux3d/lg_weather_rain_drop/original_8236621.jpg",
+        "sha256": "075e3de8ce871d8c541672179797aa5bb22e8d25ec1c6cf403445b8017cfca21",
+        "taskId": 8236621
+      },
+      "sha256": "098e7c692c3fcc26c8f97e96f5fd8f2ec02063eed66cf83771cf5891d0d76d45",
+      "bytes": 1318,
+      "width": 64,
+      "height": 256,
+      "mode": "RGBA",
+      "colorSpace": "NoColorSpace",
+      "wrap": "ClampToEdgeWrapping",
+      "channels": {
+        "RGB": "white for shader tint",
+        "A": "genuine Lux source luminance"
+      },
+      "processing": {
+        "operations": [
+          "source luminance",
+          "black subtraction",
+          "range normalization",
+          "crop original luminance > 3% of source peak with 8px source margin",
+          "preserve aspect ratio and fill 256px height",
+          "transparent horizontal padding to 64x256",
+          "3px vertical frame-edge feather"
+        ],
+        "blackLevel": 0.0,
+        "normalizationHigh": 0.7301961183547974,
+        "sourceCrop": [
+          496,
+          138,
+          528,
+          927
+        ],
+        "sourceCropThreshold": 0.024158824682235718,
+        "sourceCropThresholdPeakFraction": 0.03,
+        "fittedSize": [
+          10,
+          256
+        ],
+        "proceduralShape": false
+      },
+      "orientation": "PNG top is fading tail, bottom is brighter tip. TextureLoader flipY=true: UV y=0 corresponds to tip.",
+      "viewedOriginal": true
+    }
+  },
+  "sourceLedger": "assets/lux3d/lg_weather_jobs.json",
+  "generator": "tools/lg_weather_pack.py",
+  "totalBytes": 95408,
+  "runtimeReady": true,
+  "budget": {
+    "plannedCredits": 12,
+    "reservedCredits": 12,
+    "actualCredits": null,
+    "note": "Two original image tasks at estimated 6 credits each; no retries; billing unverified."
+  },
+  "inspection": {
+    "originalsViewedOnce": true,
+    "finalDimensionsCheckedOnce": true,
+    "runtimeAppearance": "To be integrated by root and yamen; not claimed by source generation."
+  },
+  "provenance": "New Lux3D images for this work. White RGB is a shader tint carrier; alpha is source luminance. No mathematical noise or cloud/drop shape synthesis. Previous C and B textures are unchanged."
+}

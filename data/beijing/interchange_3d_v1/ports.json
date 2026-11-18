@@ -1,0 +1,238 @@
+[
+  {
+    "interchange": "复兴门桥",
+    "localNode": "P0",
+    "globalNode": 70,
+    "p": [
+      -2402.8873074610533,
+      18.0,
+      -150.64342013830753
+    ],
+    "roadClass": 1,
+    "incidentEdges": [
+      "base:51:0",
+      "复兴门桥:through:1"
+    ],
+    "smoothTransitions": [
+      {
+        "fromEdge": "base:51:0",
+        "toEdge": "复兴门桥:through:1"
+      },
+      {
+        "fromEdge": "复兴门桥:through:1",
+        "toEdge": "base:51:0"
+      }
+    ]
+  },
+  {
+    "interchange": "复兴门桥",
+    "localNode": "P1",
+    "globalNode": 77,
+    "p": [
+      -2405.898201010202,
+      18.0,
+      528.838317914466
+    ],
+    "roadClass": 1,
+    "incidentEdges": [
+      "base:57:0",
+      "复兴门桥:through:1",
+      "复兴门桥:loop:15322"
+    ],
+    "smoothTransitions": [
+      {
+        "fromEdge": "base:57:0",
+        "toEdge": "复兴门桥:through:1"
+      },
+      {
+        "fromEdge": "base:57:0",
+        "toEdge": "复兴门桥:loop:15322"
+      },
+      {
+        "fromEdge": "复兴门桥:through:1",
+        "toEdge": "base:57:0"
+      },
+      {
+        "fromEdge": "复兴门桥:loop:15322",
+        "toEdge": "base:57:0"
+      }
+    ]
+  },
+  {
+    "interchange": "复兴门桥",
+    "localNode": "P2",
+    "globalNode": 34,
+    "p": [
+      -2077.0661502176977,
+      0,
+      183.0
+    ],
+    "roadClass": 2,
+    "incidentEdges": [
+      "base:28:0",
+      "复兴门桥:through:2:part:0"
+    ],
+    "smoothTransitions": [
+      {
+        "fromEdge": "base:28:0",
+        "toEdge": "复兴门桥:through:2:part:0"
+      },
+      {
+        "fromEdge": "复兴门桥:through:2:part:0",
+        "toEdge": "base:28:0"
+      }
+    ]
+  },
+  {
+    "interchange": "复兴门桥",
+    "localNode": "P3",
+    "globalNode": 30,
+    "p": [
+      -2756.6671405506954,
+      0,
+      174.65821490300343
+    ],
+    "roadClass": 2,
+    "incidentEdges": [
+      "base:22:0",
+      "复兴门桥:through:2:part:3",
+      "复兴门桥:loop:15322"
+    ],
+    "smoothTransitions": [
+      {
+        "fromEdge": "base:22:0",
+        "toEdge": "复兴门桥:through:2:part:3"
+      },
+      {
+        "fromEdge": "base:22:0",
+        "toEdge": "复兴门桥:loop:15322"
+      },
+      {
+        "fromEdge": "复兴门桥:through:2:part:3",
+        "toEdge": "base:22:0"
+      },
+      {
+        "fromEdge": "复兴门桥:loop:15322",
+        "toEdge": "base:22:0"
+      }
+    ]
+  },
+  {
+    "interchange": "建国门桥",
+    "localNode": "P0",
+    "globalNode": 117,
+    "p": [
+      1664.4003172933392,
+      18.0,
+      438.01801245509176
+    ],
+    "roadClass": 1,
+    "incidentEdges": [
+      "base:77:0",
+      "建国门桥:through:1"
+    ],
+    "smoothTransitions": [
+      {
+        "fromEdge": "base:77:0",
+        "toEdge": "建国门桥:through:1"
+      },
+      {
+        "fromEdge": "建国门桥:through:1",
+        "toEdge": "base:77:0"
+      }
+    ]
+  },
+  {
+    "interchange": "建国门桥",
+    "localNode": "P1",
+    "globalNode": 121,
+    "p": [
+      1605.0542772079111,
+      18.0,
+      -234.75120340247815
+    ],
+    "roadClass": 1,
+    "incidentEdges": [
+      "base:80:0",
+      "建国门桥:through:1",
+      "建国门桥:loop:10773"
+    ],
+    "smoothTransitions": [
+      {
+        "fromEdge": "base:80:0",
+        "toEdge": "建国门桥:through:1"
+      },
+      {
+        "fromEdge": "base:80:0",
+        "toEdge": "建国门桥:loop:10773"
+      },
+      {
+        "fromEdge": "建国门桥:through:1",
+        "toEdge": "base:80:0"
+      },
+      {
+        "fromEdge": "建国门桥:loop:10773",
+        "toEdge": "base:80:0"
+      }
+    ]
+  },
+  {
+    "interchange": "建国门桥",
+    "localNode": "P2",
+    "globalNode": 22,
+    "p": [
+      2012.9038498459706,
+      0,
+      125.0
+    ],
+    "roadClass": 2,
+    "incidentEdges": [
+      "base:15:0",
+      "建国门桥:through:2:part:0"
+    ],
+    "smoothTransitions": [
+      {
+        "fromEdge": "base:15:0",
+        "toEdge": "建国门桥:through:2:part:0"
+      },
+      {
+        "fromEdge": "建国门桥:through:2:part:0",
+        "toEdge": "base:15:0"
+      }
+    ]
+  },
+  {
+    "interchange": "建国门桥",
+    "localNode": "P3",
+    "globalNode": 23,
+    "p": [
+      1335.0601501540289,
+      0,
+      125.0
+    ],
+    "roadClass": 2,
+    "incidentEdges": [
+      "base:17:0",
+      "建国门桥:through:2:part:2",
+      "建国门桥:loop:10773"
+    ],
+    "smoothTransitions": [
+      {
+        "fromEdge": "base:17:0",
+        "toEdge": "建国门桥:through:2:part:2"
+      },
+      {
+        "fromEdge": "base:17:0",
+        "toEdge": "建国门桥:loop:10773"
+      },
+      {
+        "fromEdge": "建国门桥:through:2:part:2",
+        "toEdge": "base:17:0"
+      },
+      {
+        "fromEdge": "建国门桥:loop:10773",
+        "toEdge": "base:17:0"
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "taskId": 8194422,
+  "source": "lux3d-complete-skeleton",
+  "raw": "assets/lux3d/ribbonfish_train/ribbonfish_skeleton_v2_8194422_0.glb",
+  "rawSha256": "88e230dc4f1a68c8354f3c909011059cdd1a063bd4635745207576154a80b3dd",
+  "file": "full_skeleton_v2.glb",
+  "sha256": "419f11ee07bef02a7498bd8e2b90b42b195381f8f2f9ad481585c4b362e51dad",
+  "sourceVertices": 45037,
+  "sourceTriangles": 90494,
+  "retainedTriangles": 90494,
+  "removedTriangles": 0,
+  "addedTriangles": 0,
+  "placement": {
+    "uniformLengthScale": 74.99999701976787,
+    "axis": "source +X tail-to-head, +Y dorsal",
+    "lateralGain": 0.58,
+    "verticalGain": 0.72,
+    "dorsalOffset": "1.8m smoothstep(u,.18,.40)",
+    "centerline": "current measured Lux body core(u)",
+    "outerCorrections": 6071,
+    "maxOuterCorrection": 1.0949180550442208,
+    "maxPlacementOffset": 3.4381154186690934
+  },
+  "jaw": {
+    "source": "geometric labels on original source vertices; u>.865 and source y below line -1.1→-2.3m, not an extra Lux semantic task",
+    "jawVertices": 2818
+  },
+  "reference": "docs/art_ref/ribbonfish/skeleton_model_guide_v2.png"
+}

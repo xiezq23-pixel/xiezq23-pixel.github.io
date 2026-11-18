@@ -1,0 +1,16 @@
+{
+ "version": 1,
+ "note": "流光两条河边的公园小物。全部几何来自 Lux3D（G1-Turbo 图生 3D + 关节化），经 tools/glb_prep.mjs 减面缩放；关节件由 tools/lg_park_artic.mjs 合并分件并换算转轴。只在河开放后出现。",
+ "assets": {
+  "bench":       { "url": "/models/lg_park/bench.glb",       "height": 1.25, "tris": 2980, "color": "vertex", "lux": { "image": 8297392, "model": 8297659 } },
+  "stone_table": { "url": "/models/lg_park/stone_table.glb", "height": 1.15, "tris": 898,  "color": "vertex", "lux": { "image": 8297407, "model": 8297669 } },
+  "stone_stool": { "url": "/models/lg_park/stone_stool.glb", "height": 0.7,  "tris": 700,  "color": "vertex", "lux": { "image": 8297419, "model": 8297918 } },
+  "swing":       { "url": "/models/lg_park/swing.glb", "joint": "/models/lg_park/swing_joint.json", "height": 3.6, "tris": 3182, "color": "vertex", "parts": ["base", "swing_seat"], "lux": { "image": 8297440, "model": 8297677, "articulation": 8298054 } },
+  "seesaw":      { "url": "/models/lg_park/seesaw.glb", "joint": "/models/lg_park/seesaw_joint.json", "tris": 2999, "color": "vertex", "parts": ["stand", "plank"], "note": "原模木板斜放约 25.7°，restAngle 把它放平", "lux": { "image": 8297586, "model": 8297765, "articulation": 8297933 } },
+  "postbox":     { "url": "/models/lg_park/postbox.glb",   "height": 2.1, "tris": 3000, "color": "texture-512", "lux": { "image": 8298092, "model": 8298390 } },
+  "letterbox":   { "url": "/models/lg_park/letterbox.glb", "joint": "/models/lg_park/letterbox_joint.json", "height": 2.0, "tris": 2500, "color": "texture-512", "lux": { "image": 8298108, "model": 8298393, "articulation": 8298478 } }
+ },
+ "hearts": { "url": "/models/lg_park/hearts.json", "note": "不是新模型：用流光 B 已有的 Lux 银杏叶 / 桃瓣图卡摆的心形，12 个变体" },
+ "postal": { "url": "/models/lg_park/postal.json", "note": "邮筒 4（每河 2）、信箱 2（每河 1），固定位置" },
+ "superseded": { "mailbox_8297689": "第一版邮筒（偏英式柱筒），用户要求改为中国邮政风格后弃用" }
+}

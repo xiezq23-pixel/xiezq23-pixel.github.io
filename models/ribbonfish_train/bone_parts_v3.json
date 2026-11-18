@@ -1,0 +1,84 @@
+{
+  "version": 3,
+  "source": "lux3d-new-part-kit",
+  "parts": {
+    "rib": {
+      "taskId": 8194878,
+      "raw": "assets/lux3d/ribbonfish_train/ribbonfish_rib_unit_v3_8194878_0.glb",
+      "rawSha256": "fe546a4b3c404df7669608d2bb18a8627862b2d6b76883e905b4f2168cc806ee",
+      "source": {
+        "vertices": 4983,
+        "triangles": 9962
+      },
+      "file": "rib_v3_lod.glb",
+      "sha256": "4e2490bacfc7676c70dc35eea75b40081a9ac9b295360ab0d634527dbc2ea727",
+      "vertices": 402,
+      "triangles": 800,
+      "axis": "root +Y, tip -Y, arc XY",
+      "sourceOriginShift": [
+        0,
+        0,
+        0
+      ],
+      "bounds": {
+        "isBox3": true,
+        "min": {
+          "x": -0.1599999964237213,
+          "y": -0.6782233715057373,
+          "z": -0.03470052778720856
+        },
+        "max": {
+          "x": 0.1599999964237213,
+          "y": 0.6782233715057373,
+          "z": 0.03470052778720856
+        }
+      },
+      "normalInheritance": true,
+      "simplification": {
+        "meshoptError": 0.0011640778975561261,
+        "surfaceMaximum": 0.0022387897988069222,
+        "surfaceP95": 0.0011183089554182796,
+        "heightFraction": 0.001650481163629425
+      }
+    },
+    "vertebra": {
+      "taskId": 8194881,
+      "raw": "assets/lux3d/ribbonfish_train/ribbonfish_vertebra_v3_8194881_0.glb",
+      "rawSha256": "1189c82d0f0d2bb310cdeb53b55cbcb8e52f5d858fe1318cb6a23f02ae266339",
+      "source": {
+        "vertices": 4666,
+        "triangles": 9336
+      },
+      "file": "vertebra_v3_lod.glb",
+      "sha256": "d9c8905059e080ced9a3718b1317af41b7e5567a710b050250aa04090d529e3a",
+      "vertices": 498,
+      "triangles": 1000,
+      "axis": "centrum +X, dorsal +Y, lateral Z",
+      "sourceOriginShift": [
+        0,
+        -0.06356940418481827,
+        0
+      ],
+      "bounds": {
+        "isBox3": true,
+        "min": {
+          "x": -0.058443207293748856,
+          "y": -0.06143059581518173,
+          "z": -0.07810765504837036
+        },
+        "max": {
+          "x": 0.058443207293748856,
+          "y": 0.18856939673423767,
+          "z": 0.07810765504837036
+        }
+      },
+      "normalInheritance": true,
+      "simplification": {
+        "meshoptError": 0.007811701390892267,
+        "surfaceMaximum": 0.002107688367397742,
+        "surfaceP95": 0.0012689820229086885,
+        "heightFraction": 0.008430753720847008
+      }
+    }
+  }
+}

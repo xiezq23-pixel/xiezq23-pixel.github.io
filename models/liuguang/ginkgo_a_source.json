@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "id": "ginkgo_a",
+  "sources": [
+    {
+      "taskId": 8226703,
+      "file": "assets/lux3d/lg_b/lg_b_ginkgo_conical_mv/mv3d_8226703_0.glb",
+      "sha256": "34e7685b4248772b7bc8f51c95f136ff6ba2c7adae92c91b6d83938d0cc3ab39",
+      "bytes": 11527860,
+      "triangles": 62108
+    }
+  ],
+  "sourceTransforms": [
+    {
+      "primitiveIndex": 0,
+      "world": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "commonTransform": {
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "foot": [
+      0.014581147290440164,
+      -6,
+      0.05078248033407245
+    ],
+    "uniformScale": 1,
+    "horizontalScale": 1
+  },
+  "split": {
+    "mode": "source-color",
+    "sourceFaces": 62108,
+    "mixedPartFaces": 0,
+    "sourcePieces": [
+      {
+        "node": "geometry_0",
+        "mesh": "geometry_0",
+        "material": "",
+        "primitiveIndex": 0,
+        "triangles": {
+          "trunk": 2131,
+          "crown": 59977
+        }
+      }
+    ],
+    "options": {
+      "mode": "source-color",
+      "trunkLuminanceMax": 0.3,
+      "bareFootHeight": 0.12,
+      "reason": "Lux split 8227911 未按树干/树冠语义拆分（仅左右/上下冠片，round仅1part）。保留母原网格，依据真实PBR烘色的枝干暗部与树冠亮部分类，不添加/删除源面。",
+      "attemptTaskId": 8227911
+    },
+    "addedFaces": 0,
+    "removedFaces": 0
+  },
+  "lods": [
+    {
+      "level": 0,
+      "trunk": {
+        "requestedTriangles": 1500,
+        "triangles": 1499,
+        "vertices": 1020,
+        "meshoptRelativeError": 0.0022262162528932095,
+        "targetReached": true,
+        "sourceVerticesPreserved": true
+      },
+      "crown": {
+        "requestedTriangles": 4200,
+        "triangles": 5782,
+        "vertices": 2749,
+        "meshoptRelativeError": 0.01184788066893816,
+        "targetReached": false,
+        "sourceVerticesPreserved": true
+      }
+    },
+    {
+      "level": 1,
+      "trunk": {
+        "requestedTriangles": 600,
+        "triangles": 599,
+        "vertices": 465,
+        "meshoptRelativeError": 0.005691321101039648,
+        "targetReached": true,
+        "sourceVerticesPreserved": true
+      },
+      "crown": {
+        "requestedTriangles": 350,
+        "triangles": 324,
+        "vertices": 197,
+        "meshoptRelativeError": 0.03579263016581535,
+        "targetReached": true,
+        "sourceVerticesPreserved": true
+      }
+    },
+    {
+      "level": 2,
+      "trunk": {
+        "requestedTriangles": 160,
+        "triangles": 159,
+        "vertices": 118,
+        "meshoptRelativeError": 0.011671421118080616,
+        "targetReached": true,
+        "sourceVerticesPreserved": true
+      },
+      "crown": {
+        "requestedTriangles": 120,
+        "triangles": 104,
+        "vertices": 70,
+        "meshoptRelativeError": 0.056035324931144714,
+        "targetReached": true,
+        "sourceVerticesPreserved": true
+      }
+    }
+  ],
+  "sampling": {
+    "source": "full-resolution Lux crown before LOD",
+    "count": 3000,
+    "seed": 7341,
+    "area": 392.1564111892738,
+    "outwardNormalFlips": 1395
+  },
+  "normalPolicy": "继承源平滑法线；采样点法线朝冠心外半球；不重建树形",
+  "materialPolicy": "Lux baseColor + COLOR_0 烘为线性顶点色，原高分辨率PBR仅保留在assets",
+  "review": {
+    "status": "NEEDS_VISUAL_REVIEW",
+    "note": "工具成功不等于用户美术验收；需比较原模/LOD多视图和正式游戏帧率"
+  }
+}

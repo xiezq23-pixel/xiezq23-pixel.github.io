@@ -1,0 +1,59 @@
+{
+  "taskId": 8194872,
+  "file": "head_v3_mandible.glb",
+  "sourceFile": "assets/lux3d/ribbonfish_train/ribbonfish_mandible_v3_8194872_0.glb",
+  "sourceSha256": "f38361ebb90eec655e99dc3e717ef22293baf42310b677b2574b970fc46f7efb",
+  "sha256": "e9bb64d97737d5b5f40e6391e091433e61ca1477262a8bba858edcb3c9af48f2",
+  "sourceVertices": 4747,
+  "sourceTriangles": 9490,
+  "retainedTriangles": 9490,
+  "addedTriangles": 0,
+  "removedTriangles": 0,
+  "indexOrderPreserved": true,
+  "fit": {
+    "method": "source V-plane rigid +90deg X rotation, uniform scale, rigid pitch/translation; empty central V and topology preserved",
+    "scale": 63.88888635017264,
+    "rotationX": 1.5707963267948966,
+    "sourceAxisYaw": -0.05748398727630561,
+    "pitch": -0.015000000000000006,
+    "noseAnchor": [
+      87.5,
+      -2.4655883309158257,
+      0
+    ],
+    "sourceRotatedNose": [
+      0.09000000357627869,
+      0.00015080475673635697,
+      -0.009737018426811253
+    ],
+    "attempted": 1,
+    "route": {
+      "gap": 0.5641308565548441,
+      "worst": {
+        "t": 0.7375,
+        "off": 0,
+        "r": 0.6,
+        "point": [
+          76.57843034165364,
+          -0.6077506800949473,
+          0
+        ]
+      }
+    },
+    "finalRigidPitchAdjustment": 0.035,
+    "wallMargin": 0.1310281654801475
+  },
+  "bounds": {
+    "isBox3": true,
+    "min": {
+      "x": 75.94542694091797,
+      "y": -2.8946921825408936,
+      "z": -1.982826828956604
+    },
+    "max": {
+      "x": 87.50022888183594,
+      "y": -1.7264275550842285,
+      "z": 2.0288195610046387
+    }
+  }
+}

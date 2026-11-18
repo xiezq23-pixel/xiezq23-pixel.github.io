@@ -1,0 +1,616 @@
+{
+  "headAxis": "-X",
+  "parts": [
+    {
+      "index": 0,
+      "name": "body",
+      "vertices": 472
+    },
+    {
+      "index": 1,
+      "name": "pectoral_fin_left",
+      "vertices": 483
+    },
+    {
+      "index": 2,
+      "name": "pectoral_fin_right",
+      "vertices": 522
+    },
+    {
+      "index": 3,
+      "name": "pelvic_fin_left",
+      "vertices": 147
+    },
+    {
+      "index": 4,
+      "name": "pelvic_fin_right",
+      "vertices": 206
+    },
+    {
+      "index": 5,
+      "name": "dorsal_fin",
+      "vertices": 132
+    }
+  ],
+  "joints": [
+    {
+      "name": "pectoral_fin_left_joint",
+      "part": 1,
+      "pivot": [
+        -0.3350595850700617,
+        0.010304052435275912,
+        0.12897841302230575
+      ],
+      "axis": [
+        -0.9943482198852179,
+        0.10430502306549382,
+        -0.019801004378695586
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    },
+    {
+      "name": "pectoral_fin_right_joint",
+      "part": 2,
+      "pivot": [
+        -0.4256642448716161,
+        0.06715403505585903,
+        -0.31800457533202897
+      ],
+      "axis": [
+        -0.0402990072006877,
+        0.2805940501369703,
+        -0.958980171352031
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    },
+    {
+      "name": "pelvic_fin_left_joint",
+      "part": 3,
+      "pivot": [
+        0.052230921532660735,
+        -0.09522372780418151,
+        0.06324562061725653
+      ],
+      "axis": [
+        -0.9806245152529064,
+        -0.0059999970340522,
+        0.1958049032087652
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    },
+    {
+      "name": "pelvic_fin_right_joint",
+      "part": 4,
+      "pivot": [
+        0.05827123218609769,
+        -0.09415779063004556,
+        -0.0593371544083758
+      ],
+      "axis": [
+        -0.9757469543687068,
+        0.020800999027230902,
+        -0.2179109898092838
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    },
+    {
+      "name": "dorsal_fin_joint",
+      "part": 5,
+      "pivot": [
+        0.29171147332186714,
+        0.099132150279937,
+        0.0024872016915083303
+      ],
+      "axis": [
+        -0.9721151024410088,
+        0.23450402471191817,
+        -0.00030000003161385495
+      ],
+      "lower": -0.523599,
+      "upper": 0.523599
+    }
+  ],
+  "urdf": {
+    "file": "assets/lux3d/faraway_flyingfish_artic/extracted/urdf/robot.urdf",
+    "root": "body",
+    "linkCount": 6,
+    "jointCount": 5,
+    "allLinkWorldMatrices": {
+      "body": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "pectoral_fin_left": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.0943,
+        0.0735494,
+        0.0363,
+        1
+      ],
+      "pectoral_fin_right": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.1198,
+        0.0895494,
+        -0.0895,
+        1
+      ],
+      "pelvic_fin_left": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.0147,
+        0.0438494,
+        0.0178,
+        1
+      ],
+      "pelvic_fin_right": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.0164,
+        0.0441494,
+        -0.0167,
+        1
+      ],
+      "dorsal_fin": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0.0821,
+        0.0985494,
+        0.0007,
+        1
+      ]
+    },
+    "alignmentToInput": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      -0.07064940194609165,
+      4.208087919788106e-9,
+      1
+    ],
+    "relativeBBoxMismatch": 1.5818776562086682e-8,
+    "maxSurfaceDistance": 9.17246360499049e-9,
+    "meanSurfaceDistance": 2.295461351582516e-9,
+    "farVertices": 0,
+    "meshSources": [
+      {
+        "path": "F:\\大四秋\\城市漂流\\assets\\lux3d\\faraway_flyingfish_artic\\extracted\\urdf\\meshes\\body.glb",
+        "sha256": "ff21aec84247086d5ccac4ea23f937b5f062cfd84f78f0cb72b0460b250b05ff"
+      },
+      {
+        "path": "F:\\大四秋\\城市漂流\\assets\\lux3d\\faraway_flyingfish_artic\\extracted\\urdf\\meshes\\pectoral_fin_left.glb",
+        "sha256": "f03e598f43b0cbe39923f7e457ebd95bcfbe371464d112709f6d5bebac078eab"
+      },
+      {
+        "path": "F:\\大四秋\\城市漂流\\assets\\lux3d\\faraway_flyingfish_artic\\extracted\\urdf\\meshes\\pectoral_fin_right.glb",
+        "sha256": "924daa1ffc1e841c30e0616dc6afdc5f87855f98d5530e9d3b70972211ede440"
+      },
+      {
+        "path": "F:\\大四秋\\城市漂流\\assets\\lux3d\\faraway_flyingfish_artic\\extracted\\urdf\\meshes\\pelvic_fin_left.glb",
+        "sha256": "6d491c02c9187af2b509dcf49a40a76db74ee9d9b3d9fdc9a119cf572171960e"
+      },
+      {
+        "path": "F:\\大四秋\\城市漂流\\assets\\lux3d\\faraway_flyingfish_artic\\extracted\\urdf\\meshes\\pelvic_fin_right.glb",
+        "sha256": "2776754c649c0281394a8e2bd7bf0ac26758859920eff3cafe5b1eb02414e77a"
+      },
+      {
+        "path": "F:\\大四秋\\城市漂流\\assets\\lux3d\\faraway_flyingfish_artic\\extracted\\urdf\\meshes\\dorsal_fin.glb",
+        "sha256": "3c80edbe8d1e05a115a128cc636d8dd30f23181c1e18588269ea3985673e0eb4"
+      }
+    ],
+    "rotationConvention": "Rz(yaw) Ry(pitch) Rx(roll); joints and visual transforms recursively composed"
+  },
+  "assetRole": "faraway-environment-flyingfish",
+  "standardLength": 1.6,
+  "preparation": {
+    "sourceModel": "assets/lux3d/faraway_flyingfish/img3d_8163172.glb",
+    "sourceLabels": "assets/lux3d/faraway_flyingfish_artic/extracted/urdf/robot.urdf",
+    "sourceModelSHA256": "c2423ff9644ca34c23046e136d5d8d216d95f555ae7b2b0e88add5943320bb33",
+    "sourceLabelsSHA256": "3b4d44b4f02be435b6a61d535ae053ace41ec906000b7c8c18f2ff61fa073afb",
+    "transformColumnMajor": [
+      3.5531239137864445,
+      0,
+      0,
+      0,
+      0,
+      3.5531239137864445,
+      0,
+      0,
+      0,
+      0,
+      3.5531239137864445,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "trianglesBefore": 22396,
+    "trianglesAfter": 3964,
+    "targetTriangles": 4000,
+    "thinShellCleanup": {
+      "cancelledReverseCoincidentFaces": 50,
+      "touchingEdgesSeparated": 17,
+      "outputVertices": 1962,
+      "outputTriangles": 3964,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "positionDisplacement": 0,
+      "pairingAttempt": 3,
+      "subdividedPinchEdges": 5,
+      "newVertices": "Exact edge midpoints; no shape movement"
+    },
+    "maxSemanticTransferDistance": 0.0022464115611663207,
+    "farVertices": 0,
+    "materials": "Runtime cool paper shader; no warm headlight or source baked lighting",
+    "validation": "Geometry/labels prepared; still requires new-model rig pose, fin-root and visual review",
+    "offlineRigMs": 398.6043999999997
+  },
+  "rigBlueprint": {
+    "version": 1,
+    "L": 1.600000023841858,
+    "stops": [
+      0,
+      0.2,
+      0.3142857142857143,
+      0.4285714285714286,
+      0.5428571428571429,
+      0.6571428571428573,
+      0.7714285714285714,
+      0.8857142857142859
+    ],
+    "attributes": {
+      "_AFIN": "aFin",
+      "_AS": "aS",
+      "_AUP": "aUp",
+      "_ARAY": "aRay",
+      "_ATIP": "aTip",
+      "_AEYE": "aEye",
+      "_AMID": "aMid",
+      "_SKININDEX": "skinIndex",
+      "_SKINWEIGHT": "skinWeight"
+    },
+    "bones": [
+      {
+        "name": "spine0",
+        "parent": -1,
+        "position": [
+          -0.800000011920929,
+          0.0005692839622497559,
+          0
+        ]
+      },
+      {
+        "name": "spine1",
+        "parent": 0,
+        "position": [
+          0.3200000047683716,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "spine2",
+        "parent": 1,
+        "position": [
+          0.18285714558192662,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "spine3",
+        "parent": 2,
+        "position": [
+          0.18285714558192667,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "spine4",
+        "parent": 3,
+        "position": [
+          0.18285714558192667,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "spine5",
+        "parent": 4,
+        "position": [
+          0.18285714558192667,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "spine6",
+        "parent": 5,
+        "position": [
+          0.18285714558192634,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "spine7",
+        "parent": 6,
+        "position": [
+          0.182857145581927,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "pectoral_fin_left",
+        "parent": 1,
+        "position": [
+          0.14494042208249563,
+          0.009734768473026156,
+          0.12897841302230575
+        ]
+      },
+      {
+        "name": "pectoral_fin_right",
+        "parent": 1,
+        "position": [
+          0.05433576228094128,
+          0.06658475109360927,
+          -0.31800457533202897
+        ]
+      },
+      {
+        "name": "pelvic_fin_left",
+        "parent": 3,
+        "position": [
+          0.1665166375213648,
+          -0.09579301176643126,
+          0.06324562061725653
+        ]
+      },
+      {
+        "name": "pelvic_fin_right",
+        "parent": 3,
+        "position": [
+          0.17255694817480177,
+          -0.09472707459229532,
+          -0.0593371544083758
+        ]
+      },
+      {
+        "name": "dorsal_fin",
+        "parent": 5,
+        "position": [
+          0.04028289814671787,
+          0.09856286631768725,
+          0.0024872016915083303
+        ]
+      }
+    ],
+    "spine": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "fins": [
+      {
+        "bone": 8,
+        "name": "pectoral_fin_left",
+        "kind": "pectoral",
+        "axis": [
+          -0.9943482198852179,
+          0.10430502306549382,
+          -0.019801004378695586
+        ],
+        "sign": 1,
+        "lo": -0.523599,
+        "hi": 0.523599,
+        "side": 1
+      },
+      {
+        "bone": 9,
+        "name": "pectoral_fin_right",
+        "kind": "pectoral",
+        "axis": [
+          -0.04029900720068769,
+          0.28059405013697025,
+          -0.9589801713520307
+        ],
+        "sign": 1,
+        "lo": -0.523599,
+        "hi": 0.523599,
+        "side": -1
+      },
+      {
+        "bone": 10,
+        "name": "pelvic_fin_left",
+        "kind": "pelvic",
+        "axis": [
+          -0.9806245152529064,
+          -0.0059999970340522,
+          0.1958049032087652
+        ],
+        "sign": 1,
+        "lo": -0.523599,
+        "hi": 0.523599,
+        "side": 1
+      },
+      {
+        "bone": 11,
+        "name": "pelvic_fin_right",
+        "kind": "pelvic",
+        "axis": [
+          -0.9757469543687068,
+          0.020800999027230902,
+          -0.2179109898092838
+        ],
+        "sign": -1,
+        "lo": -0.523599,
+        "hi": 0.523599,
+        "side": -1
+      },
+      {
+        "bone": 12,
+        "name": "dorsal_fin",
+        "kind": "dorsal",
+        "axis": [
+          -0.9721151024410088,
+          0.23450402471191817,
+          -0.00030000003161385495
+        ],
+        "sign": -1,
+        "lo": -0.523599,
+        "hi": 0.523599,
+        "side": 1
+      }
+    ],
+    "weightAudit": {
+      "method": "full-body-BVH distance; root band fixed to spine",
+      "fins": [
+        {
+          "name": "pectoral_fin_left",
+          "vertices": 483,
+          "maxBodySurfaceDistance": 0.6962716112388219,
+          "rootBand": 0.009600000143051148,
+          "fullWeightDistance": 0.2645832122707523,
+          "lockedRootVertices": 16,
+          "minWeight": 0,
+          "maxWeight": 1
+        },
+        {
+          "name": "pectoral_fin_right",
+          "vertices": 522,
+          "maxBodySurfaceDistance": 0.3582114922778491,
+          "rootBand": 0.009600000143051148,
+          "fullWeightDistance": 0.13612036706558267,
+          "lockedRootVertices": 47,
+          "minWeight": 0,
+          "maxWeight": 1
+        },
+        {
+          "name": "pelvic_fin_left",
+          "vertices": 147,
+          "maxBodySurfaceDistance": 0.24653468825103075,
+          "rootBand": 0.009600000143051148,
+          "fullWeightDistance": 0.0936831815353917,
+          "lockedRootVertices": 14,
+          "minWeight": 0,
+          "maxWeight": 1
+        },
+        {
+          "name": "pelvic_fin_right",
+          "vertices": 206,
+          "maxBodySurfaceDistance": 0.29977870551924723,
+          "rootBand": 0.009600000143051148,
+          "fullWeightDistance": 0.11391590809731394,
+          "lockedRootVertices": 21,
+          "minWeight": 0,
+          "maxWeight": 1
+        },
+        {
+          "name": "dorsal_fin",
+          "vertices": 132,
+          "maxBodySurfaceDistance": 0.09023525920451696,
+          "rootBand": 0.009600000143051148,
+          "fullWeightDistance": 0.03428939849771644,
+          "lockedRootVertices": 37,
+          "minWeight": 0,
+          "maxWeight": 1
+        }
+      ]
+    }
+  },
+  "validation": {
+    "cpuRig": true,
+    "gpuVisual": false,
+    "cpuAssetSHA256": "f2eefeb3dd2bf2a588e97c83814f1e4194429943df721f6e9801cf8e4797b749",
+    "cpuReport": "artifacts/faraway/flyingfish-rig-audit.json",
+    "browser": "pending"
+  }
+}

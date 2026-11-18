@@ -1,0 +1,443 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-17T13:00:43.610410+00:00",
+  "generator": "tools/lg_c_pack.py",
+  "textureURLs": "absolute site URLs rooted at /tex/liuguang/",
+  "textures": {
+    "flow_gold": {
+      "file": "/tex/liuguang/flow_gold.png",
+      "taskId": 8234080,
+      "taskIds": [
+        8234080
+      ],
+      "sha256": "7ccfc6bf2b49b11f3fb52292b877449f93bc8d91f63add309e9aa8ef1f1903ef",
+      "bytes": 761819,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "colorSpace": "NoColorSpace",
+      "sources": [
+        {
+          "file": "assets/lux3d/lg_c_flow_gold/original_8234080.png",
+          "taskId": 8234080,
+          "sha256": "dccdb365964cbb2f00442096259c4db2834119d71ca34784b184e9cdc312d7eb"
+        }
+      ],
+      "channels": {
+        "R": "Lux luminance broad density",
+        "G": "positive fine-scale Lux luminance residual; sparse dust",
+        "B": "Lux low-frequency luminance residual; 0.5 neutral perturbation"
+      },
+      "wrap": "RepeatWrapping",
+      "processing": "Opposite-edge crossfade, Lanczos 1024 square, luminance scale separation, 6-bit channel quantization. No procedural patterns.",
+      "seams": {
+        "meanHorizontal": 0.01374716318639257,
+        "meanVertical": 0.01586212718532848
+      },
+      "derivedFrom": null
+    },
+    "brush_lut": {
+      "file": "/tex/liuguang/brush_lut.png",
+      "taskId": 8234084,
+      "taskIds": [
+        8234084,
+        8234115
+      ],
+      "sha256": "a60981db1ca4226cc5e1ece45ee837265631ddf392d2ebb9f9c329681fe0daba",
+      "bytes": 5127,
+      "width": 64,
+      "height": 128,
+      "mode": "L",
+      "colorSpace": "NoColorSpace",
+      "sources": [
+        {
+          "file": "assets/lux3d/lg_c_brush_a/original_8234084.jpg",
+          "taskId": 8234084,
+          "sha256": "cb066934f803e4cfc80027e66bd6eb235f8c61d6df162b6e1752d3d200efef03"
+        },
+        {
+          "file": "assets/lux3d/lg_c_brush_b/original_8234115.jpg",
+          "taskId": 8234115,
+          "sha256": "087a52bcb006f4e2b15862295b1dfa18adeaab4ae51d0cc075a66cd5c4b42f00"
+        }
+      ],
+      "channels": {
+        "R": "cross-section opacity from Lux paint scans"
+      },
+      "wrap": "ClampToEdgeWrapping",
+      "layout": "64 columns / 128 rows; columns 0..31 brush_a, 32..63 brush_b; row is cross-river position. PNG row zero is upper scan edge; default flipY reverses orientation.",
+      "processing": "Natural paper subtraction; vertical profiles averaged over five source columns; Lanczos resampling; global ink normalization.",
+      "crops": [
+        {
+          "source": "assets/lux3d/lg_c_brush_a/original_8234084.jpg",
+          "y": [
+            301,
+            718
+          ],
+          "xSamples": [
+            206.24,
+            815.76
+          ]
+        },
+        {
+          "source": "assets/lux3d/lg_c_brush_b/original_8234115.jpg",
+          "y": [
+            262,
+            746
+          ],
+          "xSamples": [
+            126.28,
+            900.72
+          ]
+        }
+      ]
+    },
+    "bokeh_atlas": {
+      "file": "/tex/liuguang/bokeh_atlas.png",
+      "taskId": 8234123,
+      "taskIds": [
+        8234123
+      ],
+      "sha256": "81c6e6abbdfacc71fff3b03b9b53c790f3412024d04af929065b70cd1d38a72e",
+      "bytes": 113240,
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "colorSpace": "NoColorSpace",
+      "sources": [
+        {
+          "file": "assets/lux3d/lg_c_bokeh/original_8234123.jpg",
+          "taskId": 8234123,
+          "sha256": "9c3ad4f20288c8a1fe596d83e93367cb81843f9d0a90e11f9170ec77fa0da3d5"
+        }
+      ],
+      "channels": {
+        "RGB": "white for runtime tint",
+        "A": "Lux original spot luminance after original black subtraction"
+      },
+      "grid": [
+        4,
+        4
+      ],
+      "tileSize": [
+        128,
+        128
+      ],
+      "tiles": [
+        {
+          "index": 0,
+          "rowFromTop": 0,
+          "column": 0,
+          "sourceCrop": [
+            0,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 1,
+          "rowFromTop": 0,
+          "column": 1,
+          "sourceCrop": [
+            256,
+            0,
+            512,
+            256
+          ]
+        },
+        {
+          "index": 2,
+          "rowFromTop": 0,
+          "column": 2,
+          "sourceCrop": [
+            512,
+            0,
+            768,
+            256
+          ]
+        },
+        {
+          "index": 3,
+          "rowFromTop": 0,
+          "column": 3,
+          "sourceCrop": [
+            768,
+            0,
+            1024,
+            256
+          ]
+        },
+        {
+          "index": 4,
+          "rowFromTop": 1,
+          "column": 0,
+          "sourceCrop": [
+            0,
+            256,
+            256,
+            512
+          ]
+        },
+        {
+          "index": 5,
+          "rowFromTop": 1,
+          "column": 1,
+          "sourceCrop": [
+            256,
+            256,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 6,
+          "rowFromTop": 1,
+          "column": 2,
+          "sourceCrop": [
+            512,
+            256,
+            768,
+            512
+          ]
+        },
+        {
+          "index": 7,
+          "rowFromTop": 1,
+          "column": 3,
+          "sourceCrop": [
+            768,
+            256,
+            1024,
+            512
+          ]
+        },
+        {
+          "index": 8,
+          "rowFromTop": 2,
+          "column": 0,
+          "sourceCrop": [
+            0,
+            512,
+            256,
+            768
+          ]
+        },
+        {
+          "index": 9,
+          "rowFromTop": 2,
+          "column": 1,
+          "sourceCrop": [
+            256,
+            512,
+            512,
+            768
+          ]
+        },
+        {
+          "index": 10,
+          "rowFromTop": 2,
+          "column": 2,
+          "sourceCrop": [
+            512,
+            512,
+            768,
+            768
+          ]
+        },
+        {
+          "index": 11,
+          "rowFromTop": 2,
+          "column": 3,
+          "sourceCrop": [
+            768,
+            512,
+            1024,
+            768
+          ]
+        },
+        {
+          "index": 12,
+          "rowFromTop": 3,
+          "column": 0,
+          "sourceCrop": [
+            0,
+            768,
+            256,
+            1024
+          ]
+        },
+        {
+          "index": 13,
+          "rowFromTop": 3,
+          "column": 1,
+          "sourceCrop": [
+            256,
+            768,
+            512,
+            1024
+          ]
+        },
+        {
+          "index": 14,
+          "rowFromTop": 3,
+          "column": 2,
+          "sourceCrop": [
+            512,
+            768,
+            768,
+            1024
+          ]
+        },
+        {
+          "index": 15,
+          "rowFromTop": 3,
+          "column": 3,
+          "sourceCrop": [
+            768,
+            768,
+            1024,
+            1024
+          ]
+        }
+      ],
+      "wrap": "ClampToEdgeWrapping",
+      "processing": "Sixteen existing source cells cropped and resized; luminance-derived alpha only; no generated dots."
+    },
+    "bridge_caustic": {
+      "file": "/tex/liuguang/bridge_caustic.png",
+      "taskId": 8234129,
+      "taskIds": [
+        8234129
+      ],
+      "sha256": "613ec73ed94a07e7534c9c83c4f98d5b543d4905d33ec20b395a47cd73b4bb4f",
+      "bytes": 87004,
+      "width": 512,
+      "height": 512,
+      "mode": "L",
+      "colorSpace": "NoColorSpace",
+      "sources": [
+        {
+          "file": "assets/lux3d/lg_c_bridge_caustic/original_8234129.jpg",
+          "taskId": 8234129,
+          "sha256": "d54a95cefa931bcfccc875064a16cb102d81518d76f649e835891c2ea176d19d"
+        }
+      ],
+      "channels": {
+        "R": "Lux soft caustic light density"
+      },
+      "wrap": "RepeatWrapping",
+      "processing": "Original luminance, opposite-edge crossfade, soft grain filtering, 512 square resize. Runtime intensity remains low."
+    },
+    "flow_peach": {
+      "file": "/tex/liuguang/flow_peach.png",
+      "taskId": 8234080,
+      "taskIds": [
+        8234080
+      ],
+      "sha256": "7ccfc6bf2b49b11f3fb52292b877449f93bc8d91f63add309e9aa8ef1f1903ef",
+      "bytes": 761819,
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "colorSpace": "NoColorSpace",
+      "sources": [
+        {
+          "file": "assets/lux3d/lg_c_flow_gold/original_8234080.png",
+          "taskId": 8234080,
+          "sha256": "dccdb365964cbb2f00442096259c4db2834119d71ca34784b184e9cdc312d7eb"
+        }
+      ],
+      "channels": {
+        "R": "Lux luminance broad density",
+        "G": "positive fine-scale Lux luminance residual; sparse dust",
+        "B": "Lux low-frequency luminance residual; 0.5 neutral perturbation"
+      },
+      "wrap": "RepeatWrapping",
+      "processing": "Opposite-edge crossfade, Lanczos 1024 square, luminance scale separation, 6-bit channel quantization. No procedural patterns.",
+      "seams": {
+        "meanHorizontal": 0.01374716318639257,
+        "meanVertical": 0.01586212718532848
+      },
+      "derivedFrom": "flow_gold",
+      "limitation": "Peach-specific Lux edit rejected at upload with HTTP 413 and no task ID. Automatic approval review rejected a proposed compressed-image resubmission because the user prohibits unapproved failure retries; no retry was executed. Runtime uses the new gold Lux structure, tinted peach by shader, not an independently generated peach image."
+    }
+  },
+  "runtimeTexturesReady": true,
+  "budget": {
+    "reservedCredits": 42,
+    "planningCapCredits": 42,
+    "actualCredits": null,
+    "note": "Estimates only, no verified billing; rejected upload is still conservatively reserved."
+  },
+  "sourceLedger": "assets/lux3d/lg_c_jobs.json",
+  "totalBytes": 1729009,
+  "limitBytes": 4194304,
+  "inspection": {
+    "originalsViewed": true,
+    "contactSheet": "assets/lux3d/lg_c_originals_contact.jpg",
+    "styleFrame": {
+      "taskId": 8234074,
+      "file": "assets/lux3d/lg_c_style/original_8234074.png",
+      "accepted": false,
+      "reason": "Lux interpreted the sketch as a metallic relief rather than translucent haze; retained for provenance but not used as final style or runtime texture."
+    },
+    "flow_gold": "Natural filaments and sparse dust suitable as source; runtime density softened and low-contrast shader required.",
+    "brushes": "Two genuine asymmetric warm paint scans; natural opacity cross sections retained.",
+    "bokeh": "Exactly sixteen separated source spots in four-by-four grid.",
+    "bridge": "Subtle soft diffuse caustic traces on dark substrate."
+  },
+  "postprocessPolicy": "Packing, seamless crossfade, resizing, alpha extraction and compression only; every pattern comes from recorded Lux pixels. B leaf/petal atlases untouched.",
+  "generationSummary": {
+    "successfulTasks": 6,
+    "attempts": [
+      {
+        "asset": "style",
+        "taskId": 8234074,
+        "status": "success",
+        "uploadError": null
+      },
+      {
+        "asset": "flow_gold",
+        "taskId": 8234080,
+        "status": "success",
+        "uploadError": null
+      },
+      {
+        "asset": "brush_a",
+        "taskId": 8234084,
+        "status": "success",
+        "uploadError": null
+      },
+      {
+        "asset": "brush_b",
+        "taskId": 8234115,
+        "status": "success",
+        "uploadError": null
+      },
+      {
+        "asset": "bokeh",
+        "taskId": 8234123,
+        "status": "success",
+        "uploadError": null
+      },
+      {
+        "asset": "bridge_caustic",
+        "taskId": 8234129,
+        "status": "success",
+        "uploadError": null
+      },
+      {
+        "asset": "flow_peach",
+        "taskId": null,
+        "status": "submission_unknown",
+        "uploadError": {
+          "type": "AholoError",
+          "httpStatus": 413
+        }
+      }
+    ],
+    "independentPeachSourceReady": false,
+    "runtimeReadyUsesExplicitFallback": true
+  }
+}

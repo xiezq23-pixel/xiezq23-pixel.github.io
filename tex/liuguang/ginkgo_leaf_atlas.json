@@ -1,0 +1,148 @@
+{
+  "id": "ginkgo_leaf",
+  "sources": [
+    {
+      "slot": 0,
+      "file": "assets/lux3d/lg_b/lg_b_ginkgo_leaf_gold_ref/image_8225053_0.jpg",
+      "taskId": 8225053,
+      "sha256": "5bead30229f2299ce75c3a2c715feb83522fa25f697a3eb6dbe64616640aaf16",
+      "contentRect": [
+        33,
+        10,
+        190,
+        236
+      ],
+      "mask": {
+        "inputSize": [
+          1024,
+          1024
+        ],
+        "crop": {
+          "left": 161,
+          "top": 91,
+          "width": 701,
+          "height": 871
+        },
+        "foregroundFraction": 0.18860530853271484,
+        "whiteThreshold": 175,
+        "chromaThreshold": 25,
+        "method": "边界连通白/中性背景剔除，保留不连通白花心"
+      },
+      "derivedTransform": {
+        "flipX": false,
+        "rotation": 0,
+        "scaleX": 1,
+        "opacity": 1
+      },
+      "note": "真实源图抠图"
+    },
+    {
+      "slot": 1,
+      "file": "assets/lux3d/lg_b/lg_b_ginkgo_leaf_green_ref/edit_8225556_0.jpg",
+      "taskId": 8225556,
+      "sha256": "dae32ff38a74e0aea6c4db2477645d31dbd5a8e68ac0a994856becccdb883dde",
+      "contentRect": [
+        289,
+        10,
+        190,
+        236
+      ],
+      "mask": {
+        "inputSize": [
+          1024,
+          1024
+        ],
+        "crop": {
+          "left": 161,
+          "top": 91,
+          "width": 701,
+          "height": 871
+        },
+        "foregroundFraction": 0.1890430450439453,
+        "whiteThreshold": 175,
+        "chromaThreshold": 25,
+        "method": "边界连通白/中性背景剔除，保留不连通白花心"
+      },
+      "derivedTransform": {
+        "flipX": false,
+        "rotation": 0,
+        "scaleX": 1,
+        "opacity": 1
+      },
+      "note": "真实源图抠图"
+    },
+    {
+      "slot": 2,
+      "file": "assets/lux3d/lg_b/lg_b_ginkgo_leaf_dry_ref/edit_8225579_0.jpg",
+      "taskId": 8225579,
+      "sha256": "fbbe35673a0d7ae1edcf4caeb7df1413fff260087149700bc761fa960c4269d1",
+      "contentRect": [
+        33,
+        266,
+        190,
+        236
+      ],
+      "mask": {
+        "inputSize": [
+          1024,
+          1024
+        ],
+        "crop": {
+          "left": 161,
+          "top": 91,
+          "width": 701,
+          "height": 871
+        },
+        "foregroundFraction": 0.18846988677978516,
+        "whiteThreshold": 175,
+        "chromaThreshold": 25,
+        "method": "边界连通白/中性背景剔除，保留不连通白花心"
+      },
+      "derivedTransform": {
+        "flipX": false,
+        "rotation": 0,
+        "scaleX": 1,
+        "opacity": 1
+      },
+      "note": "真实源图抠图"
+    },
+    {
+      "slot": 3,
+      "file": "assets/lux3d/lg_b/lg_b_ginkgo_leaf_translucent_ref/edit_8225587_0.jpg",
+      "taskId": 8225587,
+      "sha256": "b32de052679764681f36cb4c74ce4a7f42e44af54f0ce9b40a682639b92afdb0",
+      "contentRect": [
+        289,
+        266,
+        190,
+        236
+      ],
+      "mask": {
+        "inputSize": [
+          1024,
+          1024
+        ],
+        "crop": {
+          "left": 161,
+          "top": 91,
+          "width": 701,
+          "height": 871
+        },
+        "foregroundFraction": 0.18680095672607422,
+        "whiteThreshold": 175,
+        "chromaThreshold": 25,
+        "method": "边界连通白/中性背景剔除，保留不连通白花心"
+      },
+      "derivedTransform": {
+        "flipX": false,
+        "rotation": 0,
+        "scaleX": 1,
+        "opacity": 1
+      },
+      "note": "真实源图抠图"
+    }
+  ],
+  "bytes": 185736,
+  "sha256": "0ab5ce7a34bc8a040a837e5a73308ed0d6dc33f87fb6ffe33f8c2f45bd4eb31a",
+  "review": "需透明边缘视觉检查，离线同源变体不是额外Lux任务"
+}

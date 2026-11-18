@@ -1,0 +1,33 @@
+{
+ "source": "assets/lux3d/lg_park/seesaw_artic_8297933/urdf",
+ "scale": 0.94012,
+ "translate": [
+  0.7415,
+  0,
+  -1.8609
+ ],
+ "joints": [
+  {
+   "name": "plank_joint",
+   "type": "revolute",
+   "parent": "stand",
+   "child": "plank",
+   "pivot": [
+    0.9136,
+    1.4201,
+    -2.0875
+   ],
+   "axis": [
+    -0.99807,
+    -0.056,
+    -0.027
+   ],
+   "limit": [
+    -0.523599,
+    0.523599
+   ],
+   "restAngle": 0.4489,
+   "tiltDegrees": -25.72
+  }
+ ]
+}

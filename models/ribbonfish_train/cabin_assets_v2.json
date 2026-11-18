@@ -1,0 +1,78 @@
+{
+  "version": 2,
+  "source": "new-lux3d-furniture",
+  "created": "2026-11-17T01:14:10.972Z",
+  "policy": "Original GLB bytes and all source triangles/UV/PBR textures are preserved. Only rigid orientation, uniform scale, placement and pendulum animation are applied.",
+  "bench": {
+    "taskId": 8194416,
+    "sourceFile": "assets/lux3d/ribbonfish_train/ribbonfish_bench_v2_8194416_0.glb",
+    "sourceSha256": "5263d2b7a8bc95e182df123abd9ca0ccfcbd68cd14689b2d14638d91e80093ec",
+    "url": "/models/ribbonfish_train/bench_v2.glb",
+    "triangles": 18456,
+    "vertices": 11448,
+    "sourceToLocal": [
+      -0.9999998749796992,
+      0.00005750567644211488,
+      0.0004967229439578477,
+      0,
+      0.00005750567644211488,
+      0.9999999983465485,
+      -1.428219534109308e-8,
+      0,
+      -0.0004967229439578477,
+      1.4282195341086037e-8,
+      -0.9999998766331507,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "mounts": [
+      [
+        0.9044049840811911,
+        -0.25008419582912134,
+        -0.29739914032466047
+      ],
+      [
+        -0.9004095290801268,
+        -0.24998040873671395,
+        -0.2982956332150156
+      ]
+    ],
+    "mountDescription": "Two actual rear bracket triangle contact points, sampled from original Lux BVH"
+  },
+  "strap": {
+    "taskId": 8194419,
+    "sourceFile": "assets/lux3d/ribbonfish_train/ribbonfish_strap_v2_8194419_0.glb",
+    "sourceSha256": "4e7848c7d92ed95a186d314c3d77f5855f489f4fb3a4189559c078d6364acd64",
+    "url": "/models/ribbonfish_train/strap_v2.glb",
+    "triangles": 10834,
+    "vertices": 7358,
+    "sourceToLocal": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "attachment": [
+      -0.0007560781987009024,
+      0.3597562096730929,
+      -0.00006284124725570414
+    ],
+    "targetHeight": 1.25,
+    "attachmentDescription": "Inner upper surface of the original mounting-eye opening"
+  }
+}
